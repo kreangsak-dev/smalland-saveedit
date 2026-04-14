@@ -1,0 +1,2150 @@
+[
+  {
+    "class": "/Game/Items/ArmorSets/AcornSet/BPI_AcornSet_Helmet1.BPI_AcornSet_Helmet1_C",
+    "name": "Acorn Set Helmet1",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/AcornSet/BPI_AcornSet_Helmet2.BPI_AcornSet_Helmet2_C",
+    "name": "Acorn Set Helmet2",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BackersSet/Arms/BPI_BackerSet_Arms.BPI_BackerSet_Arms_C",
+    "name": "Backer Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BackersSet/Helmet/BPI_BackerSet_Helmet.BPI_BackerSet_Helmet_C",
+    "name": "Backer Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BackersSet/Legs/BPI_BackerSet_Legs.BPI_BackerSet_Legs_C",
+    "name": "Backer Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BackersSet/Torso/BPI_BackerSet_Torso.BPI_BackerSet_Torso_C",
+    "name": "Backer Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Arms/BPI_BeeArmor2_Arms.BPI_BeeArmor2_Arms_C",
+    "name": "Bee Armor2 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Helmet/BPI_BeeArmor2_Helmet.BPI_BeeArmor2_Helmet_C",
+    "name": "Bee Armor2 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Legs/BPI_BeeArmor2_Legs.BPI_BeeArmor2_Legs_C",
+    "name": "Bee Armor2 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Torso/BPI_BeeArmor2_Torso.BPI_BeeArmor2_Torso_C",
+    "name": "Bee Armor2 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BlackAntSet1/Arms/BPI_BlackAntSet1_Arms.BPI_BlackAntSet1_Arms_C",
+    "name": "Black Ant Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BlackAntSet1/Helmet/BPI_BlackAntSet1_Helmet.BPI_BlackAntSet1_Helmet_C",
+    "name": "Black Ant Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BlackAntSet1/Legs/BPI_BlackAntSet1_Legs.BPI_BlackAntSet1_Legs_C",
+    "name": "Black Ant Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BlackAntSet1/Torso/BPI_BlackAntSet1_Torso.BPI_BlackAntSet1_Torso_C",
+    "name": "Black Ant Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/Common/BPI_BaseClothing_HelmetWithHead.BPI_BaseClothing_HelmetWithHead_C",
+    "name": "Base Clothing Helmet With Head",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DefaultArmor/Arms/BPI_DefaultArmor_Arms.BPI_DefaultArmor_Arms_C",
+    "name": "Default Armor Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DefaultArmor/Helmet/BPI_DefaultArmor_Helmet.BPI_DefaultArmor_Helmet_C",
+    "name": "Default Armor Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DefaultArmor/Legs/BPI_DefaultArmor_Legs.BPI_DefaultArmor_Legs_C",
+    "name": "Default Armor Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DefaultArmor/Torso/BPI_DefaultArmor_Torso.BPI_DefaultArmor_Torso_C",
+    "name": "Default Armor Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DrustanaSet1/Arms/BPI_DrustanaSet1_Arms.BPI_DrustanaSet1_Arms_C",
+    "name": "Drustana Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DrustanaSet1/Helmet/BPI_DrustanaSet1_Helmet.BPI_DrustanaSet1_Helmet_C",
+    "name": "Drustana Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DrustanaSet1/Legs/BPI_DrustanaSet1_Legs.BPI_DrustanaSet1_Legs_C",
+    "name": "Drustana Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/DrustanaSet1/Torso/BPI_DrustanaSet1_Torso.BPI_DrustanaSet1_Torso_C",
+    "name": "Drustana Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/EadricusHelmet/BPI_EadricusSet_Helmet.BPI_EadricusSet_Helmet_C",
+    "name": "Eadricus Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/GhostAntSet1/Arms/BPI_GhostAntSet1_Arms.BPI_GhostAntSet1_Arms_C",
+    "name": "Ghost Ant Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/GhostAntSet1/Helmet/BPI_GhostAntSet1_Helmet.BPI_GhostAntSet1_Helmet_C",
+    "name": "Ghost Ant Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/GhostAntSet1/Legs/BPI_GhostAntSet1_Legs.BPI_GhostAntSet1_Legs_C",
+    "name": "Ghost Ant Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/GhostAntSet1/Torso/BPI_GhostAntSet1_Torso.BPI_GhostAntSet1_Torso_C",
+    "name": "Ghost Ant Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/IcarusSet1/Arms/BPI_IcarusSet_Arms.BPI_IcarusSet_Arms_C",
+    "name": "Icarus Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/IcarusSet1/Helmet/BPI_IcarusSet_Helmet.BPI_IcarusSet_Helmet_C",
+    "name": "Icarus Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/IcarusSet1/Legs/BPI_IcarusSet_Legs.BPI_IcarusSet_Legs_C",
+    "name": "Icarus Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/IcarusSet1/Torso/BPI_IcarusSet_Torso.BPI_IcarusSet_Torso_C",
+    "name": "Icarus Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/LisandraSet1/Arms/BPI_LisandraSet1_Arms.BPI_LisandraSet1_Arms_C",
+    "name": "Lisandra Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/LisandraSet1/Helmet/BPI_LisandraSet1_Helmet.BPI_LisandraSet1_Helmet_C",
+    "name": "Lisandra Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/LisandraSet1/Legs/BPI_LisandraSet1_Legs.BPI_LisandraSet1_Legs_C",
+    "name": "Lisandra Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/LisandraSet1/Torso/BPI_LisandraSet1_Torso.BPI_LisandraSet1_Torso_C",
+    "name": "Lisandra Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MantisSet/Arms/BPI_MantisSet_Arms.BPI_MantisSet_Arms_C",
+    "name": "Mantis Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MantisSet/Helmet/BPI_MantisSet_Helmet.BPI_MantisSet_Helmet_C",
+    "name": "Mantis Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MantisSet/Legs/BPI_MantisSet_Legs.BPI_MantisSet_Legs_C",
+    "name": "Mantis Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MantisSet/Torso/BPI_MantisSet_Torso.BPI_MantisSet_Torso_C",
+    "name": "Mantis Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MirmekSet1/Arms/BPI_MirmekSet1_Arms.BPI_MirmekSet1_Arms_C",
+    "name": "Mirmek Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MirmekSet1/Helmet/BPI_MirmekSet1_Helmet.BPI_MirmekSet1_Helmet_C",
+    "name": "Mirmek Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MirmekSet1/Legs/BPI_MirmekSet1_Legs.BPI_MirmekSet1_Legs_C",
+    "name": "Mirmek Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/MirmekSet1/Torso/BPI_MirmekSet1_Torso.BPI_MirmekSet1_Torso_C",
+    "name": "Mirmek Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/Misc/JumpingLegs/BPI_JumpingBoots.BPI_JumpingBoots_C",
+    "name": "Jumping Boots",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PrimalSet1/Arms/BPI_PrimalSet1_Arms.BPI_PrimalSet1_Arms_C",
+    "name": "Primal Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PrimalSet1/Helmet/BPI_PrimalSet1_Helmet.BPI_PrimalSet1_Helmet_C",
+    "name": "Primal Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PrimalSet1/Legs/BPI_PrimalSet1_Legs.BPI_PrimalSet1_Legs_C",
+    "name": "Primal Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PrimalSet1/Torso/BPI_PrimalSet1_Torso.BPI_PrimalSet1_Torso_C",
+    "name": "Primal Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Arms/BPI_PyriteSet_Arms.BPI_PyriteSet_Arms_C",
+    "name": "Pyrite Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Helmet/BPI_PyriteSet_Helmet.BPI_PyriteSet_Helmet_C",
+    "name": "Pyrite Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Legs/BPI_PyriteSet_Legs.BPI_PyriteSet_Legs_C",
+    "name": "Pyrite Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Torso/BPI_PyriteSet_Torso.BPI_PyriteSet_Torso_C",
+    "name": "Pyrite Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Arms/BPI_RodentSet_Arms.BPI_RodentSet_Arms_C",
+    "name": "Rodent Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Helmet/BPI_RodentSet_Helmet.BPI_RodentSet_Helmet_C",
+    "name": "Rodent Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Legs/BPI_RodentSet_Legs.BPI_RodentSet_Legs_C",
+    "name": "Rodent Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Torso/BPI_RodentSet_Torso.BPI_RodentSet_Torso_C",
+    "name": "Rodent Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Arms/Crystallized/BPI_RodentSet2_Arms.BPI_RodentSet2_Arms_C",
+    "name": "Rodent Set2 Arms",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RoyalBeeSet2/Arms/BPI_RoyalBeeSet2_Arms.BPI_RoyalBeeSet2_Arms_C",
+    "name": "Royal Bee Set2 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RoyalBeeSet2/Helmet/BPI_RoyalBeeSet2_Helmet.BPI_RoyalBeeSet2_Helmet_C",
+    "name": "Royal Bee Set2 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RoyalBeeSet2/Legs/BPI_RoyalBeeSet2_Legs.BPI_RoyalBeeSet2_Legs_C",
+    "name": "Royal Bee Set2 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RoyalBeeSet2/Torso/BPI_RoyalBeeSet2_Torso.BPI_RoyalBeeSet2_Torso_C",
+    "name": "Royal Bee Set2 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RufousMask/BPI_RufousSet_Helmet.BPI_RufousSet_Helmet_C",
+    "name": "Rufous Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Arms/BPI_ScorpiolaminateSet_Arms.BPI_ScorpiolaminateSet_Arms_C",
+    "name": "Scorpiolaminate Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Helmet/BPI_ScorpiolaminateSet_Helmet.BPI_ScorpiolaminateSet_Helmet_C",
+    "name": "Scorpiolaminate Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Legs/BPI_ScorpiolaminateSet_Legs.BPI_ScorpiolaminateSet_Legs_C",
+    "name": "Scorpiolaminate Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Torso/BPI_ScorpiolaminateSet_Torso.BPI_ScorpiolaminateSet_Torso_C",
+    "name": "Scorpiolaminate Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SkadiSet1/Arms/BPI_SkadiSet1_Arms.BPI_SkadiSet1_Arms_C",
+    "name": "Skadi Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SkadiSet1/Helmet/BPI_SkadiSet1_Helmet.BPI_SkadiSet1_Helmet_C",
+    "name": "Skadi Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SkadiSet1/Legs/BPI_SkadiSet1_Legs.BPI_SkadiSet1_Legs_C",
+    "name": "Skadi Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SkadiSet1/Torso/BPI_SkadiSet1_Torso.BPI_SkadiSet1_Torso_C",
+    "name": "Skadi Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SpiderSet1/Arms/BPI_SpiderSet1_Arms.BPI_SpiderSet1_Arms_C",
+    "name": "Spider Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SpiderSet1/Helmet/BPI_SpiderSet1_Helmet.BPI_SpiderSet1_Helmet_C",
+    "name": "Spider Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SpiderSet1/Legs/BPI_SpiderSet1_Legs.BPI_SpiderSet1_Legs_C",
+    "name": "Spider Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/SpiderSet1/Torso/BPI_SpiderSet1_Torso.BPI_SpiderSet1_Torso_C",
+    "name": "Spider Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Arms/BPI_SentinelSet1_Arms.BPI_SentinelSet1_Arms_C",
+    "name": "Sentinel Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Helmet/BPI_SentinelSet1_Helmet.BPI_SentinelSet1_Helmet_C",
+    "name": "Sentinel Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Legs/BPI_SentinelSet1_Legs.BPI_SentinelSet1_Legs_C",
+    "name": "Sentinel Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Torso/BPI_SentinelSet1_Torso.BPI_SentinelSet1_Torso_C",
+    "name": "Sentinel Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/TravelerSet/Arms/BPI_TravelerSet_Arms.BPI_TravelerSet_Arms_C",
+    "name": "Traveler Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/TravelerSet/Legs/BPI_TravelerSet_Legs.BPI_TravelerSet_Legs_C",
+    "name": "Traveler Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/TravelerSet/Torso/BPI_TravelerSet_Torso.BPI_TravelerSet_Torso_C",
+    "name": "Traveler Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/VanguardColdSet/Arms/BPI_VanguardCold_Arms.BPI_VanguardCold_Arms_C",
+    "name": "Vanguard Cold Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/VanguardColdSet/Legs/BPI_VanguardCold_Legs.BPI_VanguardCold_Legs_C",
+    "name": "Vanguard Cold Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/VanguardColdSet/Torso/BPI_VanguardCold_Torso.BPI_VanguardCold_Torso_C",
+    "name": "Vanguard Cold Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/VanguardHeatSet/Arms/BPI_VanguardHeat_Arms.BPI_VanguardHeat_Arms_C",
+    "name": "Vanguard Heat Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/VanguardHeatSet/Legs/BPI_VanguardHeat_Legs.BPI_VanguardHeat_Legs_C",
+    "name": "Vanguard Heat Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/VanguardHeatSet/Torso/BPI_VanguardHeat_Torso.BPI_VanguardHeat_Torso_C",
+    "name": "Vanguard Heat Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WiccanSet1/Arms/BPI_WiccanSet1_Arms.BPI_WiccanSet1_Arms_C",
+    "name": "Wiccan Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WiccanSet1/Helmet/BPI_WiccanSet1_Helmet.BPI_WiccanSet1_Helmet_C",
+    "name": "Wiccan Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WiccanSet1/Legs/BPI_WiccanSet1_Legs.BPI_WiccanSet1_Legs_C",
+    "name": "Wiccan Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WiccanSet1/Torso/BPI_WiccanSet1_Torso.BPI_WiccanSet1_Torso_C",
+    "name": "Wiccan Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WyrdWeaverSet/Arms/BPI_WyrdweaverSet_Arms.BPI_WyrdweaverSet_Arms_C",
+    "name": "Wyrdweaver Set Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WyrdWeaverSet/Helmet/BPI_WyrdweaverSet_Helmet.BPI_WyrdweaverSet_Helmet_C",
+    "name": "Wyrdweaver Set Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WyrdWeaverSet/Legs/BPI_WyrdweaverSet_Legs.BPI_WyrdweaverSet_Legs_C",
+    "name": "Wyrdweaver Set Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/WyrdWeaverSet/Torso/BPI_WyrdweaverSet_Torso.BPI_WyrdweaverSet_Torso_C",
+    "name": "Wyrdweaver Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Consumables/AetherinTunnelKey/BPI_AetherinTunnelKey.BPI_AetherinTunnelKey_C",
+    "name": "Aetherin Tunnel Key",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ElixirOfLife/BPI_ElixirOfLife.BPI_ElixirOfLife_C",
+    "name": "Elixir Of Life",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/ArmorSet_Icarus/BPI_Schematic_ArmorSet_Icarus.BPI_Schematic_ArmorSet_Icarus_C",
+    "name": "Schematic Armor Set Icarus",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/ArmorSet_Scorpiolaminate/BPI_Schematic_ArmorSet_Scorpiolaminate.BPI_Schematic_ArmorSet_Scorpiolaminate_C",
+    "name": "Schematic Armor Set Scorpiolaminate",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/Gear_IcarusWings/BPI_Schematic_Gear_IcarusWings.BPI_Schematic_Gear_IcarusWings_C",
+    "name": "Schematic Gear Icarus Wings",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/MetalTier/BPI_Schematic_MetalTier.BPI_Schematic_MetalTier_C",
+    "name": "Schematic Metal Tier",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/Rugs/BPI_Schematic_Rugs.BPI_Schematic_Rugs_C",
+    "name": "Schematic Rugs",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/ScorpionBait/BPI_Schematic_ScorpionBait.BPI_Schematic_ScorpionBait_C",
+    "name": "Schematic Scorpion Bait",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/TelsonHammer/BPI_Schematic_TelsonHammer.BPI_Schematic_TelsonHammer_C",
+    "name": "Schematic Telson Hammer",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/BeetleHeart/BPI_BeetleHeart.BPI_BeetleHeart_C",
+    "name": "Beetle Heart",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/Blackberry/BPI_Blackberry.BPI_Blackberry_C",
+    "name": "Blackberry",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/ForestStrawberry/BPI_ForestStrawberry.BPI_ForestStrawberry_C",
+    "name": "Forest Strawberry",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/HoneyCrumble/BPI_HoneyCrumble.BPI_HoneyCrumble_C",
+    "name": "Honey Crumble",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/InsectEgg/BPI_InsectEgg.BPI_InsectEgg_C",
+    "name": "Insect Egg",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/Lichen/BPI_Lichen.BPI_Lichen_C",
+    "name": "Lichen",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/MushroomEdible/BPI_MushroomEdible.BPI_MushroomEdible_C",
+    "name": "Mushroom Edible",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/MushroomPoisonous/BPI_MushroomPoisonous.BPI_MushroomPoisonous_C",
+    "name": "Mushroom Poisonous",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/ReishiMushroom/BPI_ReishiMushroom.BPI_ReishiMushroom_C",
+    "name": "Reishi Mushroom",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/RoachMeat/BPI_RoachMeat.BPI_RoachMeat_C",
+    "name": "Roach Meat",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/SpiderEye/BPI_SpiderEye.BPI_SpiderEye_C",
+    "name": "Spider Eye",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/ToadFlesh/BPI_ToadFlesh.BPI_ToadFlesh_C",
+    "name": "Toad Flesh",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Deployable/BPI_Deployable_Base.BPI_Deployable_Base_C",
+    "name": "Deployable Base",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Bones/BPI_FloorSpikes_BoneBlades.BPI_FloorSpikes_BoneBlades_C",
+    "name": "Floor Spikes Bone Blades",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Bones/BPI_SpikeWall_X_BoneBlades.BPI_SpikeWall_X_BoneBlades_C",
+    "name": "Spike Wall X Bone Blades",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Honey/BPI_FloorSpikes_HoneyPuddle.BPI_FloorSpikes_HoneyPuddle_C",
+    "name": "Floor Spikes Honey Puddle",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Metal/BPI_FloorSpikes_Metal.BPI_FloorSpikes_Metal_C",
+    "name": "Floor Spikes Metal",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Metal/BPI_SpikeWall_X_Metal.BPI_SpikeWall_X_Metal_C",
+    "name": "Spike Wall X Metal",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Stingers/BPI_FloorSpikes_Stingers.BPI_FloorSpikes_Stingers_C",
+    "name": "Floor Spikes Stingers",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Stingers/BPI_SpikeWall_X_RazorWireMandible.BPI_SpikeWall_X_RazorWireMandible_C",
+    "name": "Spike Wall X Razor Wire Mandible",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Wood/BPI_FloorSpikes_Wood.BPI_FloorSpikes_Wood_C",
+    "name": "Floor Spikes Wood",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Wood/BPI_SpikeWall_X_Wood.BPI_SpikeWall_X_Wood_C",
+    "name": "Spike Wall X Wood",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/DeployableTest/BPI_DeployableTest.BPI_DeployableTest_C",
+    "name": "Deployable Test",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Landmine/BPI_Landmine_Firesand.BPI_Landmine_Firesand_C",
+    "name": "Landmine Firesand",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Landmine/BPI_Landmine_Stink.BPI_Landmine_Stink_C",
+    "name": "Landmine Stink",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Resonator/BPI_Resonator.BPI_Resonator_C",
+    "name": "Resonator",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/TamingTraps/BPI_TamingTrap_Advanced.BPI_TamingTrap_Advanced_C",
+    "name": "Taming Trap Advanced",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/TamingTraps/BPI_TamingTrap_Basic.BPI_TamingTrap_Basic_C",
+    "name": "Taming Trap Basic",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/TamingTraps/BPI_TamingTrap_Improved.BPI_TamingTrap_Improved_C",
+    "name": "Taming Trap Improved",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/TamingTraps/BPI_TamingTrap_Supreme.BPI_TamingTrap_Supreme_C",
+    "name": "Taming Trap Supreme",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/BPI_WingsBase.BPI_WingsBase_C",
+    "name": "Wings Base",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/DrustanaWings1/BPI_DrustanaWings1.BPI_DrustanaWings1_C",
+    "name": "Drustana Wings1",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Icarus/BPI_IcarusGlidingWings.BPI_IcarusGlidingWings_C",
+    "name": "Icarus Gliding Wings",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Sapphire/BPI_SapphireGlidingWings.BPI_SapphireGlidingWings_C",
+    "name": "Sapphire Gliding Wings",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Simple/BPI_SimpleGlidingWings.BPI_SimpleGlidingWings_C",
+    "name": "Simple Gliding Wings",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/SkadiWings1/BPI_SkadiWings1.BPI_SkadiWings1_C",
+    "name": "Skadi Wings1",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/BPI_IncubatedEgg_Base.BPI_IncubatedEgg_Base_C",
+    "name": "Incubated Egg Base",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Bee/BPI_IncubatedEgg_Bee.BPI_IncubatedEgg_Bee_C",
+    "name": "Incubated Egg Bee",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/BeeDrone/BPI_IncubatedEgg_BeeDrone.BPI_IncubatedEgg_BeeDrone_C",
+    "name": "Incubated Egg Bee Drone",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/BlackAnt_Warrior/BPI_IncubatedEgg_BlackAnt_Warrior.BPI_IncubatedEgg_BlackAnt_Warrior_C",
+    "name": "Incubated Egg Black Ant Warrior",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/BlackAnt_Worker/BPI_IncubatedEgg_BlackAnt_Worker.BPI_IncubatedEgg_BlackAnt_Worker_C",
+    "name": "Incubated Egg Black Ant Worker",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/BlackWidow/BPI_IncubatedEgg_BlackWidow.BPI_IncubatedEgg_BlackWidow_C",
+    "name": "Incubated Egg Black Widow",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/BullAnt/BPI_IncubatedEgg_BullAnt.BPI_IncubatedEgg_BullAnt_C",
+    "name": "Incubated Egg Bull Ant",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/DawnAnt/BPI_IncubatedEgg_DawnAnt.BPI_IncubatedEgg_DawnAnt_C",
+    "name": "Incubated Egg Dawn Ant",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Dragonfly/BPI_IncubatedEgg_Dragonfly.BPI_IncubatedEgg_Dragonfly_C",
+    "name": "Incubated Egg Dragonfly",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Dragonfly_Nocturnal/BPI_IncubatedEgg_Dragonfly_Nocturnal.BPI_IncubatedEgg_Dragonfly_Nocturnal_C",
+    "name": "Incubated Egg Dragonfly Nocturnal",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Fly/BPI_IncubatedEgg_Fly.BPI_IncubatedEgg_Fly_C",
+    "name": "Incubated Egg Fly",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Gecko/BPI_IncubatedEgg_Gecko.BPI_IncubatedEgg_Gecko_C",
+    "name": "Incubated Egg Gecko",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Ghost/Greater/BPI_IncubatedEgg_Ghost_Greater.BPI_IncubatedEgg_Ghost_Greater_C",
+    "name": "Incubated Egg Ghost Greater",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Ghost/Lesser/BPI_IncubatedEgg_Ghost_Lesser.BPI_IncubatedEgg_Ghost_Lesser_C",
+    "name": "Incubated Egg Ghost Lesser",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Grasshopper/BPI_IncubatedEgg_Grasshopper.BPI_IncubatedEgg_Grasshopper_C",
+    "name": "Incubated Egg Grasshopper",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Grasshopper_Nocturnal/BPI_IncubatedEgg_GrasshopperNocturnal.BPI_IncubatedEgg_GrasshopperNocturnal_C",
+    "name": "Incubated Egg Grasshopper Nocturnal",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/GreenBeetle/BPI_IncubatedEgg_GreenBeetle.BPI_IncubatedEgg_GreenBeetle_C",
+    "name": "Incubated Egg Green Beetle",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/HornedBeetle/BPI_IncubatedEgg_HornedBeetle.BPI_IncubatedEgg_HornedBeetle_C",
+    "name": "Incubated Egg Horned Beetle",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Hornet/BPI_IncubatedEgg_Hornet.BPI_IncubatedEgg_Hornet_C",
+    "name": "Incubated Egg Hornet",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/JumpingSpider/BPI_IncubatedEgg_JumpingSpider.BPI_IncubatedEgg_JumpingSpider_C",
+    "name": "Incubated Egg Jumping Spider",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Ladybug_Nocturnal/BPI_IncubatedEgg_LadybugNocturnal.BPI_IncubatedEgg_LadybugNocturnal_C",
+    "name": "Incubated Egg Ladybug Nocturnal",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Lizard/BPI_IncubatedEgg_Lizard.BPI_IncubatedEgg_Lizard_C",
+    "name": "Incubated Egg Lizard",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Lubber/BPI_IncubatedEgg_Lubber.BPI_IncubatedEgg_Lubber_C",
+    "name": "Incubated Egg Lubber",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Mantis/BPI_IncubatedEgg_Mantis.BPI_IncubatedEgg_Mantis_C",
+    "name": "Incubated Egg Mantis",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Mosquito/BPI_IncubatedEgg_Mosquito.BPI_IncubatedEgg_Mosquito_C",
+    "name": "Incubated Egg Mosquito",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Mouse/BPI_IncubatedEgg_MouseInfant.BPI_IncubatedEgg_MouseInfant_C",
+    "name": "Incubated Egg Mouse Infant",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Sawyer/BPI_IncubatedEgg_Sawyer.BPI_IncubatedEgg_Sawyer_C",
+    "name": "Incubated Egg Sawyer",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Scorpion/BPI_IncubatedEgg_Scorpion.BPI_IncubatedEgg_Scorpion_C",
+    "name": "Incubated Egg Scorpion",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Snake/BPI_IncubatedEgg_Snake.BPI_IncubatedEgg_Snake_C",
+    "name": "Incubated Egg Snake",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Spider_Nocturnal/BPI_IncubatedEgg_Spider_Nocturnal.BPI_IncubatedEgg_Spider_Nocturnal_C",
+    "name": "Incubated Egg Spider Nocturnal",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/StagBeetle/BPI_IncubatedEgg_StagBeetle.BPI_IncubatedEgg_StagBeetle_C",
+    "name": "Incubated Egg Stag Beetle",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Stinkbug/BPI_IncubatedEgg_Stinkbug.BPI_IncubatedEgg_Stinkbug_C",
+    "name": "Incubated Egg Stinkbug",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Tarantula/BPI_IncubatedEgg_Tarantula.BPI_IncubatedEgg_Tarantula_C",
+    "name": "Incubated Egg Tarantula",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/TarantulaHawkWasp/BPI_IncubatedEgg_TarantulaHawkWasp.BPI_IncubatedEgg_TarantulaHawkWasp_C",
+    "name": "Incubated Egg Tarantula Hawk Wasp",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Wasp/BPI_IncubatedEgg_Wasp.BPI_IncubatedEgg_Wasp_C",
+    "name": "Incubated Egg Wasp",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Waterbug/BPI_IncubatedEgg_Waterbug.BPI_IncubatedEgg_Waterbug_C",
+    "name": "Incubated Egg Waterbug",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/WolfSpider/BPI_IncubatedEgg_WolfSpider.BPI_IncubatedEgg_WolfSpider_C",
+    "name": "Incubated Egg Wolf Spider",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Orb/BPI_WyrdOrb.BPI_WyrdOrb_C",
+    "name": "Wyrd Orb",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_AncientCloverSeal.BPI_AncientCloverSeal_C",
+    "name": "Ancient Clover Seal",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_HealingPotionRecipe_TopHalf.BPI_HealingPotionRecipe_TopHalf_C",
+    "name": "Healing Potion Recipe Top Half",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_OldTongueTome.BPI_OldTongueTome_C",
+    "name": "Old Tongue Tome",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/Golfball/BPI_GolfBall.BPI_GolfBall_C",
+    "name": "Golf Ball",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/Common/BPI_Projectile_Base.BPI_Projectile_Base_C",
+    "name": "Projectile Base",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/FireArrow/BPI_FireArrow.BPI_FireArrow_C",
+    "name": "Fire Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/FlintArrow/BPI_FlintArrow.BPI_FlintArrow_C",
+    "name": "Flint Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/Hook/BPI_Hook.BPI_Hook_C",
+    "name": "Hook",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/LongArrow/BPI_LongArrow.BPI_LongArrow_C",
+    "name": "Long Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/PoisonArrow/BPI_PoisonArrow.BPI_PoisonArrow_C",
+    "name": "Poison Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/PoisonDart/BPI_PoisonDart.BPI_PoisonDart_C",
+    "name": "Poison Dart",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/UrticatingDart/BPI_UrticatingDart.BPI_UrticatingDart_C",
+    "name": "Urticating Dart",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/WoodArrow/BPI_WoodArrow.BPI_WoodArrow_C",
+    "name": "Wood Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/BPI_Ranged_Base.BPI_Ranged_Base_C",
+    "name": "Ranged Base",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Blowgun/BPI_Blowgun.BPI_Blowgun_C",
+    "name": "Blowgun",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Bow/BPI_Base_Bow.BPI_Base_Bow_C",
+    "name": "Base Bow",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Bow/RecurveBow/BPI_RecurveBow.BPI_RecurveBow_C",
+    "name": "Recurve Bow",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Bow/SimpleBow/BPI_SimpleBow.BPI_SimpleBow_C",
+    "name": "Simple Bow",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Bow/YuletideRecurveBow/BPI_YuletideRecurveBow.BPI_YuletideRecurveBow_C",
+    "name": "Yuletide Recurve Bow",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Firearms/Musket/BPI_Musket.BPI_Musket_C",
+    "name": "Musket",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Grenade/BPI_Grenade_Base.BPI_Grenade_Base_C",
+    "name": "Grenade Base",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Acorn.BPI_Acorn_C",
+    "name": "Acorn",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_AlbinoSpiderEye.BPI_AlbinoSpiderEye_C",
+    "name": "Albino Spider Eye",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_AmphibianHide.BPI_AmphibianHide_C",
+    "name": "Amphibian Hide",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_AmphibianLeather.BPI_AmphibianLeather_C",
+    "name": "Amphibian Leather",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_AntHead.BPI_AntHead_C",
+    "name": "Ant Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_AntMandible.BPI_AntMandible_C",
+    "name": "Ant Mandible",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_BeeHead.BPI_BeeHead_C",
+    "name": "Bee Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_BloodDrop.BPI_BloodDrop_C",
+    "name": "Blood Drop",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_BoneFragments.BPI_BoneFragments_C",
+    "name": "Bone Fragments",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Bones.BPI_Bones_C",
+    "name": "Bones",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Ectoplasm.BPI_Ectoplasm_C",
+    "name": "Ectoplasm",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_FireflyJuice.BPI_FireflyJuice_C",
+    "name": "Firefly Juice",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Flour.BPI_Flour_C",
+    "name": "Flour",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GoldBullion.BPI_GoldBullion_C",
+    "name": "Gold Bullion",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GoldScrap.BPI_GoldScrap_C",
+    "name": "Gold Scrap",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GrasshopperLeg.BPI_GrasshopperLeg_C",
+    "name": "Grasshopper Leg",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Gunpowder.BPI_Gunpowder_C",
+    "name": "Gunpowder",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_InsectFat.BPI_InsectFat_C",
+    "name": "Insect Fat",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_InsectSting.BPI_InsectSting_C",
+    "name": "Insect Sting",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_InsectWings.BPI_InsectWings_C",
+    "name": "Insect Wings",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_KingStagPincer.BPI_KingStagPincer_C",
+    "name": "King Stag Pincer",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LeafBlades.BPI_LeafBlades_C",
+    "name": "Leaf Blades",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LichenPulp.BPI_LichenPulp_C",
+    "name": "Lichen Pulp",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LizardClaw.BPI_LizardClaw_C",
+    "name": "Lizard Claw",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LubberFemur.BPI_LubberFemur_C",
+    "name": "Lubber Femur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MantisHead.BPI_MantisHead_C",
+    "name": "Mantis Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MetalPiece.BPI_MetalPiece_C",
+    "name": "Metal Piece",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MouseFur.BPI_MouseFur_C",
+    "name": "Mouse Fur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MouseFurWhite.BPI_MouseFurWhite_C",
+    "name": "Mouse Fur White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MouseHide.BPI_MouseHide_C",
+    "name": "Mouse Hide",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MushyCompound.BPI_MushyCompound_C",
+    "name": "Mushy Compound",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Nectar.BPI_Nectar_C",
+    "name": "Nectar",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Petal.BPI_Petal_C",
+    "name": "Petal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_PoisonGland.BPI_PoisonGland_C",
+    "name": "Poison Gland",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RefinedSaltpeter.BPI_RefinedSaltpeter_C",
+    "name": "Refined Saltpeter",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RefinedSulphur.BPI_RefinedSulphur_C",
+    "name": "Refined Sulphur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RhinoSplitHorn.BPI_RhinoSplitHorn_C",
+    "name": "Rhino Split Horn",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SaltPeter.BPI_SaltPeter_C",
+    "name": "Salt Peter",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SapphireWings.BPI_SapphireWings_C",
+    "name": "Sapphire Wings",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ScorpionChitin.BPI_ScorpionChitin_C",
+    "name": "Scorpion Chitin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ScorpionTelson.BPI_ScorpionTelson_C",
+    "name": "Scorpion Telson",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SeedOil.BPI_SeedOil_C",
+    "name": "Seed Oil",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Seeds.BPI_Seeds_C",
+    "name": "Seeds",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SerratedChitin.BPI_SerratedChitin_C",
+    "name": "Serrated Chitin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Seta.BPI_Seta_C",
+    "name": "Seta",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SilkThread.BPI_SilkThread_C",
+    "name": "Silk Thread",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SnakeFang.BPI_SnakeFang_C",
+    "name": "Snake Fang",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SnakeLeather.BPI_SnakeLeather_C",
+    "name": "Snake Leather",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SnakeSkin.BPI_SnakeSkin_C",
+    "name": "Snake Skin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SorrelLeaf.BPI_SorrelLeaf_C",
+    "name": "Sorrel Leaf",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SpiderHead.BPI_SpiderHead_C",
+    "name": "Spider Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SpiderMatriarchFang.BPI_SpiderMatriarchFang_C",
+    "name": "Spider Matriarch Fang",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_StinkGland.BPI_StinkGland_C",
+    "name": "Stink Gland",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Sulphur.BPI_Sulphur_C",
+    "name": "Sulphur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_TibialSpine.BPI_TibialSpine_C",
+    "name": "Tibial Spine",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_UrticatingHair.BPI_UrticatingHair_C",
+    "name": "Urticating Hair",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_WaspQueenHead.BPI_WaspQueenHead_C",
+    "name": "Wasp Queen Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_DrustanaBanner1.BPI_DrustanaBanner1_C",
+    "name": "Drustana Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_DrustanaBanner2.BPI_DrustanaBanner2_C",
+    "name": "Drustana Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_LisandraBanner1.BPI_LisandraBanner1_C",
+    "name": "Lisandra Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_LisandraBanner2.BPI_LisandraBanner2_C",
+    "name": "Lisandra Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_MirmekBanner1.BPI_MirmekBanner1_C",
+    "name": "Mirmek Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_MirmekBanner2.BPI_MirmekBanner2_C",
+    "name": "Mirmek Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_SkadiBanner1.BPI_SkadiBanner1_C",
+    "name": "Skadi Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_SkadiBanner2.BPI_SkadiBanner2_C",
+    "name": "Skadi Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/BPI_Egg_Base.BPI_Egg_Base_C",
+    "name": "Egg Base",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Bee/BPI_EggBee.BPI_EggBee_C",
+    "name": "Egg Bee",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/BeeDrone/BPI_EggBeeDrone.BPI_EggBeeDrone_C",
+    "name": "Egg Bee Drone",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/BlackAnt_Warrior/BPI_EggBlackAnt_Warrior.BPI_EggBlackAnt_Warrior_C",
+    "name": "Egg Black Ant Warrior",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/BlackAnt_Worker/BPI_EggBlackAnt_Worker.BPI_EggBlackAnt_Worker_C",
+    "name": "Egg Black Ant Worker",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/BlackWidow/BPI_EggBlackWidow.BPI_EggBlackWidow_C",
+    "name": "Egg Black Widow",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/BullAnt/BPI_EggBullAnt.BPI_EggBullAnt_C",
+    "name": "Egg Bull Ant",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Cockroach/BPI_EggCockroach.BPI_EggCockroach_C",
+    "name": "Egg Cockroach",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/ColonySpider/BPI_EggColonySpider.BPI_EggColonySpider_C",
+    "name": "Egg Colony Spider",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/DawnAnt/BPI_EggDawnAnt.BPI_EggDawnAnt_C",
+    "name": "Egg Dawn Ant",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Dragonfly/BPI_EggDragonfly.BPI_EggDragonfly_C",
+    "name": "Egg Dragonfly",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Dragonfly_Nocturnal/BPI_EggDragonfly_Nocturnal.BPI_EggDragonfly_Nocturnal_C",
+    "name": "Egg Dragonfly Nocturnal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Fly/BPI_EggFly.BPI_EggFly_C",
+    "name": "Egg Fly",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Gecko/BPI_EggGecko.BPI_EggGecko_C",
+    "name": "Egg Gecko",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Grasshopper/BPI_EggGrasshopper.BPI_EggGrasshopper_C",
+    "name": "Egg Grasshopper",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Grasshopper_Nocturnal/BPI_EggGrasshopperNocturnal.BPI_EggGrasshopperNocturnal_C",
+    "name": "Egg Grasshopper Nocturnal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/GreenBeetle/BPI_EggGreenBeetle.BPI_EggGreenBeetle_C",
+    "name": "Egg Green Beetle",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/HornedBeetle/BPI_EggHornedBeetle.BPI_EggHornedBeetle_C",
+    "name": "Egg Horned Beetle",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Hornet/BPI_EggHornet.BPI_EggHornet_C",
+    "name": "Egg Hornet",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/JumpingSpider/BPI_EggJumpingSpider.BPI_EggJumpingSpider_C",
+    "name": "Egg Jumping Spider",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Ladybug_Nocturnal/BPI_EggLadybugNocturnal.BPI_EggLadybugNocturnal_C",
+    "name": "Egg Ladybug Nocturnal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Lizard/BPI_EggLizard.BPI_EggLizard_C",
+    "name": "Egg Lizard",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Lubber/BPI_EggLubber.BPI_EggLubber_C",
+    "name": "Egg Lubber",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Mantis/BPI_EggMantis.BPI_EggMantis_C",
+    "name": "Egg Mantis",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Mosquito/BPI_EggMosquito.BPI_EggMosquito_C",
+    "name": "Egg Mosquito",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Mouse/BPI_EggMouseInfant.BPI_EggMouseInfant_C",
+    "name": "Egg Mouse Infant",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Sawyer/BPI_EggSawyer.BPI_EggSawyer_C",
+    "name": "Egg Sawyer",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Scorpion/BPI_EggScorpion.BPI_EggScorpion_C",
+    "name": "Egg Scorpion",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Snake/BPI_EggSnake.BPI_EggSnake_C",
+    "name": "Egg Snake",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Spider_Nocturnal/BPI_EggSpider_Nocturnal.BPI_EggSpider_Nocturnal_C",
+    "name": "Egg Spider Nocturnal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/StagBeetle/BPI_EggStagBeetle.BPI_EggStagBeetle_C",
+    "name": "Egg Stag Beetle",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Stinkbug/BPI_EggStinkbug.BPI_EggStinkbug_C",
+    "name": "Egg Stinkbug",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Tarantula/BPI_EggTarantula.BPI_EggTarantula_C",
+    "name": "Egg Tarantula",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/TarantulaHawkWasp/BPI_EggTarantulaHawkWasp.BPI_EggTarantulaHawkWasp_C",
+    "name": "Egg Tarantula Hawk Wasp",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Wasp/BPI_EggWasp.BPI_EggWasp_C",
+    "name": "Egg Wasp",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/Waterbug/BPI_EggWaterbug.BPI_EggWaterbug_C",
+    "name": "Egg Waterbug",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Eggs/WolfSpider/BPI_EggWolfSpider.BPI_EggWolfSpider_C",
+    "name": "Egg Wolf Spider",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToyCubes/BPI_TC_Blue.BPI_TC_Blue_C",
+    "name": "TC Blue",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToyCubes/BPI_TC_Green.BPI_TC_Green_C",
+    "name": "TC Green",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToyCubes/BPI_TC_Orange.BPI_TC_Orange_C",
+    "name": "TC Orange",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToyCubes/BPI_TC_Red.BPI_TC_Red_C",
+    "name": "TC Red",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToyCubes/BPI_TC_Yellow.BPI_TC_Yellow_C",
+    "name": "TC Yellow",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_01.BPI_TS_01_C",
+    "name": "TS 01",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_02.BPI_TS_02_C",
+    "name": "TS 02",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_03.BPI_TS_03_C",
+    "name": "TS 03",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_04.BPI_TS_04_C",
+    "name": "TS 04",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_05.BPI_TS_05_C",
+    "name": "TS 05",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Staffs/BPI_Staff_Base.BPI_Staff_Base_C",
+    "name": "Staff Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Staffs/Basic/BPI_Staff_Basic.BPI_Staff_Basic_C",
+    "name": "Staff Basic",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Staffs/Basic/Summer/BPI_Staff_Basic_Summer.BPI_Staff_Basic_Summer_C",
+    "name": "Staff Basic Summer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/FireflyTorch/BPI_FireflyTorch.BPI_FireflyTorch_C",
+    "name": "Firefly Torch",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/FlintHatchet/BPI_FlintHatchet.BPI_FlintHatchet_C",
+    "name": "Flint Hatchet",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/FlintPickaxe/BPI_FlintPickaxe.BPI_FlintPickaxe_C",
+    "name": "Flint Pickaxe",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/Glider/BPI_Glider_Base.BPI_Glider_Base_C",
+    "name": "Glider Base",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/GrapplingHook/BPI_GrapplingHook.BPI_GrapplingHook_C",
+    "name": "Grappling Hook",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/GrapplingHook/BPI_GrapplingHook_Base.BPI_GrapplingHook_Base_C",
+    "name": "Grappling Hook Base",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/IronPickaxe/BPI_IronPickAxe.BPI_IronPickAxe_C",
+    "name": "Iron Pick Axe",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/MandibularPickAxe/BPI_MandibularPickAxe.BPI_MandibularPickAxe_C",
+    "name": "Mandibular Pick Axe",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/PaintBrush/BPI_PaintBrush.BPI_PaintBrush_C",
+    "name": "Paint Brush",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/ScrapPickaxe/BPI_SpikePickaxe.BPI_SpikePickaxe_C",
+    "name": "Spike Pickaxe",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/Shears/BPI_Shears.BPI_Shears_C",
+    "name": "Shears",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/StoneHatchet/BPI_StoneHatchet.BPI_StoneHatchet_C",
+    "name": "Stone Hatchet",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/WoodHatchet/BPI_WoodHatchet.BPI_WoodHatchet_C",
+    "name": "Wood Hatchet",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Axes/MetalAxe/BPI_MetalAxe.BPI_MetalAxe_C",
+    "name": "Metal Axe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/BPI_MeleeWeapon_Base.BPI_MeleeWeapon_Base_C",
+    "name": "Melee Weapon Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Club/Bone_Club/BPI_BoneMace.BPI_BoneMace_C",
+    "name": "Bone Mace",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Club/LubberMace/BPI_LubberMace.BPI_LubberMace_C",
+    "name": "Lubber Mace",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Club/Torch/BPI_Torch.BPI_Torch_C",
+    "name": "Torch",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Club/WoodClub/BPI_WoodClub.BPI_WoodClub_C",
+    "name": "Wood Club",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/Common/BPI_MW_HammerBase.BPI_MW_HammerBase_C",
+    "name": "MW Hammer Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/MetalHammer/BPI_MetalHammer.BPI_MetalHammer_C",
+    "name": "Metal Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/Morningstar/BPI_Morningstar.BPI_Morningstar_C",
+    "name": "Morningstar",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/PoisonedMace/BPI_PoisonedMace.BPI_PoisonedMace_C",
+    "name": "Poisoned Mace",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/PyriteHammer/BPI_PyriteHammer.BPI_PyriteHammer_C",
+    "name": "Pyrite Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/Stonehammer/BPI_StoneHammer.BPI_StoneHammer_C",
+    "name": "Stone Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/YuletideMetalHammer/BPI_YuletideMetalHammer.BPI_YuletideMetalHammer_C",
+    "name": "Yuletide Metal Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Sabres/GrasshopperScythe/BPI_GrasshopperScythe.BPI_GrasshopperScythe_C",
+    "name": "Grasshopper Scythe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Sabres/LisandraWeapon1/BPI_LisandraWeapon1.BPI_LisandraWeapon1_C",
+    "name": "Lisandra Weapon1",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Sabres/MetalScythe/BPI_MetalScythe.BPI_MetalScythe_C",
+    "name": "Metal Scythe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/BPI_Spear_Base.BPI_Spear_Base_C",
+    "name": "Spear Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/FlintSpear/BPI_FlintSpear.BPI_FlintSpear_C",
+    "name": "Flint Spear",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/RodentSpear/BPI_RodentSpear.BPI_RodentSpear_C",
+    "name": "Rodent Spear",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/StoneSpear/BPI_StoneSpear.BPI_StoneSpear_C",
+    "name": "Stone Spear",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/FangSabre/BPI_FangSabre.BPI_FangSabre_C",
+    "name": "Fang Sabre",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/FlintSword/BPI_FlintSword.BPI_FlintSword_C",
+    "name": "Flint Sword",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/MantisSabre/BPI_MantisSabre.BPI_MantisSabre_C",
+    "name": "Mantis Sabre",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/MetalSword/BPI_MetalSword.BPI_MetalSword_C",
+    "name": "Metal Sword",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/SharpenedWood/BPI_SharpenedWood.BPI_SharpenedWood_C",
+    "name": "Sharpened Wood",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/YuletideMetalSword/BPI_YuletideMetalSword.BPI_YuletideMetalSword_C",
+    "name": "Yuletide Metal Sword",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Swords/YuletideWoodSword/BPI_YuletideSharpenedWood.BPI_YuletideSharpenedWood_C",
+    "name": "Yuletide Sharpened Wood",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedAxes/AntGreataxe/BPI_MyrmekWeapon1.BPI_MyrmekWeapon1_C",
+    "name": "Myrmek Weapon1",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedAxes/PyriteGreataxe/BPI_PyriteGreataxe.BPI_PyriteGreataxe_C",
+    "name": "Pyrite Greataxe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedHammers/TelsonHammer/BPI_TelsonHammer.BPI_TelsonHammer_C",
+    "name": "Telson Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  }
+]
