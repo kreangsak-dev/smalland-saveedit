@@ -737,7 +737,7 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
                                 const newAttrs = { ...pet.prog.Attributes, [attr.key]: petAttrMax };
                                 updatePet(pet.birdId, pet.progId, { prog: { Attributes: newAttrs } });
                               }}
-                              className="min-w-[2rem] px-1.5 text-[9px] font-bold text-teal-600 bg-teal-50 rounded hover:bg-teal-100"
+                              className="min-w-8 px-1.5 text-[9px] font-bold text-teal-600 bg-teal-50 rounded hover:bg-teal-100"
                             >
                               {petAttrMax}
                             </button>
