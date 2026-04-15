@@ -1,0 +1,39 @@
+{
+  "increasedInventoryTraitPath": "/Game/Pawns/Common/CharacterTraits/IncreasedInventory/CT_IncreasedInventory.CT_IncreasedInventory",
+  "defaultNewPetTraitPaths": [
+    "/Game/Pawns/Common/CharacterTraits/HealingAura/CT_HealingAura.CT_HealingAura",
+    "/Game/Pawns/Common/CharacterTraits/LoyalToTheEnd/CT_LoyalToTheEnd.CT_LoyalToTheEnd",
+    "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Strongest.CT_BondStrength_Strongest",
+    "/Game/Pawns/Common/CharacterTraits/IncreasedInventory/CT_IncreasedInventory.CT_IncreasedInventory"
+  ],
+  "traits": [
+    {"path": "/Game/Pawns/Common/CharacterTraits/Sturdy/CT_Sturdy.CT_Sturdy", "name": "Sturdy", "category": "Defense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/ThickChitin/CT_ThickChitin.CT_ThickChitin", "name": "Thick Chitin", "category": "Defense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Bolstered/CT_Bolstered.CT_Bolstered", "name": "Bolstered", "category": "Defense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/LikeASoftPlushie/CT_LikeASoftPlushie.CT_LikeASoftPlushie", "name": "Like A Soft Plushie", "category": "Defense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/TooCuteToDie/CT_TooCuteToDie.CT_TooCuteToDie", "name": "Too Cute To Die", "category": "Defense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/DefensiveTactician/CT_DefensiveTactician.CT_DefensiveTactician", "name": "Defensive Tactician", "category": "Offense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Territorial/CT_Territorial.CT_Territorial", "name": "Territorial", "category": "Offense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/StinkExplosion/CT_StinkExplosion.CT_StinkExplosion", "name": "Stink Explosion", "category": "Offense"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Metabolism/CT_Metabolism.CT_Metabolism", "name": "Metabolism", "category": "Food"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/EnhancedMetabolism/CT_EnhancedMetabolism.CT_EnhancedMetabolism", "name": "Enhanced Metabolism", "category": "Food"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/SweetTooth/CT_SweetTooth.CT_SweetTooth", "name": "Sweet Tooth", "category": "Food"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Mycologist/CT_Mycologist.CT_Mycologist", "name": "Mycologist", "category": "Food"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Pollinator/CT_Pollinator.CT_Pollinator", "name": "Pollinator", "category": "Food"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/HiddenPouch/CT_HiddenPouch.CT_HiddenPouch", "name": "Hidden Pouch", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/IncreasedInventory/CT_IncreasedInventory.CT_IncreasedInventory", "name": "Increased Inventory", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Excavator/CT_Excavator.CT_Excavator", "name": "Excavator", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Scrapbug/CT_Scrapbug.CT_Scrapbug", "name": "Scrapbug", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/FastLearner/CT_FastLearner.CT_FastLearner", "name": "Fast Learner", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/HealingAura/CT_HealingAura.CT_HealingAura", "name": "Healing Aura", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/LoyalToTheEnd/CT_LoyalToTheEnd.CT_LoyalToTheEnd", "name": "Loyal To The End", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/ImprovedJump/CT_ImprovedJump.CT_ImprovedJump", "name": "Improved Jump", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/ShareTheLove/CT_ShareTheLove.CT_ShareTheLove", "name": "Share The Love", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/Bioluminescence/CT_Bioluminescence.CT_Bioluminescence", "name": "Bioluminescence", "category": "Utility"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Weakest.CT_BondStrength_Weakest", "name": "Bond Strength (Weakest)", "category": "Bond"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Weak.CT_BondStrength_Weak", "name": "Bond Strength (Weak)", "category": "Bond"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Medium.CT_BondStrength_Medium", "name": "Bond Strength (Medium)", "category": "Bond"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Strong.CT_BondStrength_Strong", "name": "Bond Strength (Strong)", "category": "Bond"},
+    {"path": "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Strongest.CT_BondStrength_Strongest", "name": "Bond Strength (Strongest)", "category": "Bond"}
+  ]
+}

@@ -36,6 +36,12 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/Common/BPI_BaseClothing_HelmetWithHead.BPI_BaseClothing_HelmetWithHead_C",
+    "name": "Base Clothing Helmet With Head",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
     "class": "/Game/Items/ArmorSets/BeeArmor2/Arms/BPI_BeeArmor2_Arms.BPI_BeeArmor2_Arms_C",
     "name": "Bee Armor2 Arms",
     "category": "Armor",
@@ -60,6 +66,30 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Arms/Crystallized/BPI_BeeArmor2_ArmsCrystallized_Spring.BPI_BeeArmor2_ArmsCrystallized_Spring_C",
+    "name": "Bee Arms (Crystal Spring)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Helmet/Crystallized/BPI_BeeArmor2_HelmetCrystallized_Spring.BPI_BeeArmor2_HelmetCrystallized_Spring_C",
+    "name": "Bee Helmet (Crystal Spring)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Legs/Crystallized/BPI_BeeArmor2_LegsCrystallized_Spring.BPI_BeeArmor2_LegsCrystallized_Spring_C",
+    "name": "Bee Legs (Crystal Spring)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/BeeArmor2/Torso/Crystallized/BPI_BeeArmor2_TorsoCrystallized_Spring.BPI_BeeArmor2_TorsoCrystallized_Spring_C",
+    "name": "Bee Torso (Crystal Spring)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
     "class": "/Game/Items/ArmorSets/BlackAntSet1/Arms/BPI_BlackAntSet1_Arms.BPI_BlackAntSet1_Arms_C",
     "name": "Black Ant Set1 Arms",
     "category": "Armor",
@@ -80,12 +110,6 @@
   {
     "class": "/Game/Items/ArmorSets/BlackAntSet1/Torso/BPI_BlackAntSet1_Torso.BPI_BlackAntSet1_Torso_C",
     "name": "Black Ant Set1 Torso",
-    "category": "Armor",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/ArmorSets/Common/BPI_BaseClothing_HelmetWithHead.BPI_BaseClothing_HelmetWithHead_C",
-    "name": "Base Clothing Helmet With Head",
     "category": "Armor",
     "kind": "equipment"
   },
@@ -192,6 +216,12 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/Misc/JumpingLegs/BPI_JumpingBoots.BPI_JumpingBoots_C",
+    "name": "Jumping Boots",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
     "class": "/Game/Items/ArmorSets/LisandraSet1/Arms/BPI_LisandraSet1_Arms.BPI_LisandraSet1_Arms_C",
     "name": "Lisandra Set1 Arms",
     "category": "Armor",
@@ -264,12 +294,6 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/ArmorSets/Misc/JumpingLegs/BPI_JumpingBoots.BPI_JumpingBoots_C",
-    "name": "Jumping Boots",
-    "category": "Armor",
-    "kind": "equipment"
-  },
-  {
     "class": "/Game/Items/ArmorSets/PrimalSet1/Arms/BPI_PrimalSet1_Arms.BPI_PrimalSet1_Arms_C",
     "name": "Primal Set1 Arms",
     "category": "Armor",
@@ -294,6 +318,24 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Arms/Crystalized/BPI_PyriteSet_ArmsCrystalized_Summer.BPI_PyriteSet_ArmsCrystalized_Summer_C",
+    "name": "Pyrite Arms (Crystal Summer)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Helmet/Crystallized/BPI_PyriteSet_HelmetCrystallized_Summer.BPI_PyriteSet_HelmetCrystallized_Summer_C",
+    "name": "Pyrite Helmet (Crystal Summer)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Legs/Crystallized/BPI_PyriteSet_LegsCrystalized_Summer.BPI_PyriteSet_LegsCrystalized_Summer_C",
+    "name": "Pyrite Legs (Crystal Summer)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
     "class": "/Game/Items/ArmorSets/PyriteSet/Arms/BPI_PyriteSet_Arms.BPI_PyriteSet_Arms_C",
     "name": "Pyrite Set Arms",
     "category": "Armor",
@@ -316,6 +358,30 @@
     "name": "Pyrite Set Torso",
     "category": "Armor",
     "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/PyriteSet/Torso/Crystallized/BPI_PyriteSet_TorsoCrystallized_Summer.BPI_PyriteSet_TorsoCrystallized_Summer_C",
+    "name": "Pyrite Torso (Crystal Summer)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Arms/Crystallized/BPI_RodentSet_ArmsCrystalized_Winter.BPI_RodentSet_ArmsCrystalized_Winter_C",
+    "name": "Rodent Arms (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Helmet/Crystallized/BPI_RodentSet_HelmetCrystalized_Winter.BPI_RodentSet_HelmetCrystalized_Winter_C",
+    "name": "Rodent Helmet (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Legs/Crystallized/BPI_RodentSet_LegsCrystallized_Winter.BPI_RodentSet_LegsCrystallized_Winter_C",
+    "name": "Rodent Legs (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
   },
   {
     "class": "/Game/Items/ArmorSets/RodentSet/Arms/BPI_RodentSet_Arms.BPI_RodentSet_Arms_C",
@@ -344,6 +410,12 @@
   {
     "class": "/Game/Items/ArmorSets/RodentSet2/Arms/Crystallized/BPI_RodentSet2_Arms.BPI_RodentSet2_Arms_C",
     "name": "Rodent Set2 Arms",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet/Torso/Crystallized/BPI_RodentSet_TorsoCrystallized_Winter.BPI_RodentSet_TorsoCrystallized_Winter_C",
+    "name": "Rodent Torso (Crystal Winter)",
     "category": "Armor",
     "kind": "epic"
   },
@@ -378,6 +450,24 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Arms/Crystallized/BPI_ScorpiolaminateSet_ArmsCrystallized_Autumn.BPI_ScorpiolaminateSet_ArmsCrystallized_Autumn_C",
+    "name": "Scorpiolaminate Arms (Crystal Autumn)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Helmet/Crystallized/BPI_ScorpiolaminateSet_HelmetCrystallized_Autumn.BPI_ScorpiolaminateSet_HelmetCrystallized_Autumn_C",
+    "name": "Scorpiolaminate Helmet (Crystal Autumn)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Legs/Crystallized/BPI_ScorpiolaminateSet_LegsCrystallized_Autumn.BPI_ScorpiolaminateSet_LegsCrystallized_Autumn_C",
+    "name": "Scorpiolaminate Legs (Crystal Autumn)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
     "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Arms/BPI_ScorpiolaminateSet_Arms.BPI_ScorpiolaminateSet_Arms_C",
     "name": "Scorpiolaminate Set Arms",
     "category": "Armor",
@@ -398,6 +488,36 @@
   {
     "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Torso/BPI_ScorpiolaminateSet_Torso.BPI_ScorpiolaminateSet_Torso_C",
     "name": "Scorpiolaminate Set Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ScorpiolaminateSet/Torso/Crystallized/BPI_ScorpiolaminateSet_TorsoCrystallized_Autumn.BPI_ScorpiolaminateSet_TorsoCrystallized_Autumn_C",
+    "name": "Scorpiolaminate Torso (Crystal Autumn)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Arms/BPI_SentinelSet1_Arms.BPI_SentinelSet1_Arms_C",
+    "name": "Sentinel Set1 Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Helmet/BPI_SentinelSet1_Helmet.BPI_SentinelSet1_Helmet_C",
+    "name": "Sentinel Set1 Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Legs/BPI_SentinelSet1_Legs.BPI_SentinelSet1_Legs_C",
+    "name": "Sentinel Set1 Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/StoneSet1/Torso/BPI_SentinelSet1_Torso.BPI_SentinelSet1_Torso_C",
+    "name": "Sentinel Set1 Torso",
     "category": "Armor",
     "kind": "equipment"
   },
@@ -446,30 +566,6 @@
   {
     "class": "/Game/Items/ArmorSets/SpiderSet1/Torso/BPI_SpiderSet1_Torso.BPI_SpiderSet1_Torso_C",
     "name": "Spider Set1 Torso",
-    "category": "Armor",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/ArmorSets/StoneSet1/Arms/BPI_SentinelSet1_Arms.BPI_SentinelSet1_Arms_C",
-    "name": "Sentinel Set1 Arms",
-    "category": "Armor",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/ArmorSets/StoneSet1/Helmet/BPI_SentinelSet1_Helmet.BPI_SentinelSet1_Helmet_C",
-    "name": "Sentinel Set1 Helmet",
-    "category": "Armor",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/ArmorSets/StoneSet1/Legs/BPI_SentinelSet1_Legs.BPI_SentinelSet1_Legs_C",
-    "name": "Sentinel Set1 Legs",
-    "category": "Armor",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/ArmorSets/StoneSet1/Torso/BPI_SentinelSet1_Torso.BPI_SentinelSet1_Torso_C",
-    "name": "Sentinel Set1 Torso",
     "category": "Armor",
     "kind": "equipment"
   },
@@ -528,6 +624,54 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Arms/BPI_WhiteRodentSet_Arms.BPI_WhiteRodentSet_Arms_C",
+    "name": "White Rodent Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Arms/Crystallized/BPI_WhiteRodentSet_ArmsCrystallized_Winter.BPI_WhiteRodentSet_ArmsCrystallized_Winter_C",
+    "name": "White Rodent Arms (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Helmet/BPI_WhiteRodentSet_Helmet.BPI_WhiteRodentSet_Helmet_C",
+    "name": "White Rodent Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Helmet/Crystallized/BPI_WhiteRodentSetCrystallized_Helmet_Winter.BPI_WhiteRodentSetCrystallized_Helmet_Winter_C",
+    "name": "White Rodent Helmet (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Legs/BPI_WhiteRodentSet_Legs.BPI_WhiteRodentSet_Legs_C",
+    "name": "White Rodent Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Legs/Crystallized/BPI_WhiteRodentSet_LegsCrystallized_Winter.BPI_WhiteRodentSet_LegsCrystallized_Winter_C",
+    "name": "White Rodent Legs (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Torso/BPI_WhiteRodentSet_Torso.BPI_WhiteRodentSet_Torso_C",
+    "name": "White Rodent Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/RodentSet2/Torso/Crystallized/BPI_WhiteRodentSet_TorsoCrystallized_Winter.BPI_WhiteRodentSet_TorsoCrystallized_Winter_C",
+    "name": "White Rodent Torso (Crystal Winter)",
+    "category": "Armor",
+    "kind": "epic"
+  },
+  {
     "class": "/Game/Items/ArmorSets/WiccanSet1/Arms/BPI_WiccanSet1_Arms.BPI_WiccanSet1_Arms_C",
     "name": "Wiccan Set1 Arms",
     "category": "Armor",
@@ -582,8 +726,98 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/Uncooked/BeetleHeart/BPI_BeetleHeart.BPI_BeetleHeart_C",
+    "name": "Beetle Heart",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/Blackberry/BPI_Blackberry.BPI_Blackberry_C",
+    "name": "Blackberry",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/BugLymph/BPI_BugLymph.BPI_BugLymph_C",
+    "name": "Bug Lymph",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Workbench/DroneBandage/BPI_Con_DroneBandage.BPI_Con_DroneBandage_C",
+    "name": "Drone Bandage",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/ElixirOfLife/BPI_ElixirOfLife.BPI_ElixirOfLife_C",
     "name": "Elixir Of Life",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/ForestStrawberry/BPI_ForestStrawberry.BPI_ForestStrawberry_C",
+    "name": "Forest Strawberry",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/HealthElixir/BPI_Con_HealthElixir.BPI_Con_HealthElixir_C",
+    "name": "Health Elixir",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/HerptileRoulade/BPI_Con_HerptileRoulade.BPI_Con_HerptileRoulade_C",
+    "name": "Herptile Roulade",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/HoneyCrumble/BPI_HoneyCrumble.BPI_HoneyCrumble_C",
+    "name": "Honey Crumble",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/InsectEgg/BPI_InsectEgg.BPI_InsectEgg_C",
+    "name": "Insect Egg",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/Lichen/BPI_Lichen.BPI_Lichen_C",
+    "name": "Lichen",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/MushroomEdible/BPI_MushroomEdible.BPI_MushroomEdible_C",
+    "name": "Mushroom Edible",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/MushroomPoisonous/BPI_MushroomPoisonous.BPI_MushroomPoisonous_C",
+    "name": "Mushroom Poisonous",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/PoisonAntidote/BPI_Con_PoisonAntidote.BPI_Con_PoisonAntidote_C",
+    "name": "Poison Antidote",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/ReishiMushroom/BPI_ReishiMushroom.BPI_ReishiMushroom_C",
+    "name": "Reishi Mushroom",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Uncooked/RoachMeat/BPI_RoachMeat.BPI_RoachMeat_C",
+    "name": "Roach Meat",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -630,68 +864,14 @@
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Consumables/Uncooked/BeetleHeart/BPI_BeetleHeart.BPI_BeetleHeart_C",
-    "name": "Beetle Heart",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/Blackberry/BPI_Blackberry.BPI_Blackberry_C",
-    "name": "Blackberry",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/ForestStrawberry/BPI_ForestStrawberry.BPI_ForestStrawberry_C",
-    "name": "Forest Strawberry",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/HoneyCrumble/BPI_HoneyCrumble.BPI_HoneyCrumble_C",
-    "name": "Honey Crumble",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/InsectEgg/BPI_InsectEgg.BPI_InsectEgg_C",
-    "name": "Insect Egg",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/Lichen/BPI_Lichen.BPI_Lichen_C",
-    "name": "Lichen",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/MushroomEdible/BPI_MushroomEdible.BPI_MushroomEdible_C",
-    "name": "Mushroom Edible",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/MushroomPoisonous/BPI_MushroomPoisonous.BPI_MushroomPoisonous_C",
-    "name": "Mushroom Poisonous",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/ReishiMushroom/BPI_ReishiMushroom.BPI_ReishiMushroom_C",
-    "name": "Reishi Mushroom",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Consumables/Uncooked/RoachMeat/BPI_RoachMeat.BPI_RoachMeat_C",
-    "name": "Roach Meat",
-    "category": "Consumables",
-    "kind": "stack"
-  },
-  {
     "class": "/Game/Items/Consumables/Uncooked/SpiderEye/BPI_SpiderEye.BPI_SpiderEye_C",
     "name": "Spider Eye",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/StaminaTonic/BPI_Con_StaminaTonic.BPI_Con_StaminaTonic_C",
+    "name": "Stamina Tonic",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -708,14 +888,14 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Deployable/Defensive/Bones/BPI_FloorSpikes_BoneBlades.BPI_FloorSpikes_BoneBlades_C",
-    "name": "Floor Spikes Bone Blades",
+    "class": "/Game/Items/Deployable/DeployableTest/BPI_DeployableTest.BPI_DeployableTest_C",
+    "name": "Deployable Test",
     "category": "Deployable",
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Deployable/Defensive/Bones/BPI_SpikeWall_X_BoneBlades.BPI_SpikeWall_X_BoneBlades_C",
-    "name": "Spike Wall X Bone Blades",
+    "class": "/Game/Items/Deployable/Defensive/Bones/BPI_FloorSpikes_BoneBlades.BPI_FloorSpikes_BoneBlades_C",
+    "name": "Floor Spikes Bone Blades",
     "category": "Deployable",
     "kind": "equipment"
   },
@@ -732,38 +912,14 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Deployable/Defensive/Metal/BPI_SpikeWall_X_Metal.BPI_SpikeWall_X_Metal_C",
-    "name": "Spike Wall X Metal",
-    "category": "Deployable",
-    "kind": "equipment"
-  },
-  {
     "class": "/Game/Items/Deployable/Defensive/Stingers/BPI_FloorSpikes_Stingers.BPI_FloorSpikes_Stingers_C",
     "name": "Floor Spikes Stingers",
     "category": "Deployable",
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Deployable/Defensive/Stingers/BPI_SpikeWall_X_RazorWireMandible.BPI_SpikeWall_X_RazorWireMandible_C",
-    "name": "Spike Wall X Razor Wire Mandible",
-    "category": "Deployable",
-    "kind": "equipment"
-  },
-  {
     "class": "/Game/Items/Deployable/Defensive/Wood/BPI_FloorSpikes_Wood.BPI_FloorSpikes_Wood_C",
     "name": "Floor Spikes Wood",
-    "category": "Deployable",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Deployable/Defensive/Wood/BPI_SpikeWall_X_Wood.BPI_SpikeWall_X_Wood_C",
-    "name": "Spike Wall X Wood",
-    "category": "Deployable",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Deployable/DeployableTest/BPI_DeployableTest.BPI_DeployableTest_C",
-    "name": "Deployable Test",
     "category": "Deployable",
     "kind": "equipment"
   },
@@ -782,6 +938,30 @@
   {
     "class": "/Game/Items/Deployable/Resonator/BPI_Resonator.BPI_Resonator_C",
     "name": "Resonator",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Bones/BPI_SpikeWall_X_BoneBlades.BPI_SpikeWall_X_BoneBlades_C",
+    "name": "Spike Wall X Bone Blades",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Metal/BPI_SpikeWall_X_Metal.BPI_SpikeWall_X_Metal_C",
+    "name": "Spike Wall X Metal",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Stingers/BPI_SpikeWall_X_RazorWireMandible.BPI_SpikeWall_X_RazorWireMandible_C",
+    "name": "Spike Wall X Razor Wire Mandible",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Wood/BPI_SpikeWall_X_Wood.BPI_SpikeWall_X_Wood_C",
+    "name": "Spike Wall X Wood",
     "category": "Deployable",
     "kind": "equipment"
   },
@@ -807,42 +987,6 @@
     "class": "/Game/Items/Deployable/TamingTraps/BPI_TamingTrap_Supreme.BPI_TamingTrap_Supreme_C",
     "name": "Taming Trap Supreme",
     "category": "Deployable",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Gear/Wings/BPI_WingsBase.BPI_WingsBase_C",
-    "name": "Wings Base",
-    "category": "Gear",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Gear/Wings/DrustanaWings1/BPI_DrustanaWings1.BPI_DrustanaWings1_C",
-    "name": "Drustana Wings1",
-    "category": "Gear",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Gear/Wings/Icarus/BPI_IcarusGlidingWings.BPI_IcarusGlidingWings_C",
-    "name": "Icarus Gliding Wings",
-    "category": "Gear",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Gear/Wings/Sapphire/BPI_SapphireGlidingWings.BPI_SapphireGlidingWings_C",
-    "name": "Sapphire Gliding Wings",
-    "category": "Gear",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Gear/Wings/Simple/BPI_SimpleGlidingWings.BPI_SimpleGlidingWings_C",
-    "name": "Simple Gliding Wings",
-    "category": "Gear",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Gear/Wings/SkadiWings1/BPI_SkadiWings1.BPI_SkadiWings1_C",
-    "name": "Skadi Wings1",
-    "category": "Gear",
     "kind": "equipment"
   },
   {
@@ -1068,44 +1212,104 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Gear/Wings/DrustanaWings1/BPI_DrustanaWings1.BPI_DrustanaWings1_C",
+    "name": "Drustana Wings1",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Eadricarus/BPI_EadricusGlidingWings.BPI_EadricusGlidingWings_C",
+    "name": "Eadricus Gliding Wings",
+    "category": "Gear",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Icarus/BPI_IcarusGlidingWings.BPI_IcarusGlidingWings_C",
+    "name": "Icarus Gliding Wings",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Sapphire/BPI_SapphireGlidingWings.BPI_SapphireGlidingWings_C",
+    "name": "Sapphire Gliding Wings",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/Simple/BPI_SimpleGlidingWings.BPI_SimpleGlidingWings_C",
+    "name": "Simple Gliding Wings",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/SkadiWings1/BPI_SkadiWings1.BPI_SkadiWings1_C",
+    "name": "Skadi Wings1",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Gear/Wings/BPI_WingsBase.BPI_WingsBase_C",
+    "name": "Wings Base",
+    "category": "Gear",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Resources/CrystalShards/BPI_CrystalShard_Autumn.BPI_CrystalShard_Autumn_C",
+    "name": "Crystal Shard (Amber)",
+    "category": "Minerals",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/CrystalShards/BPI_CrystalShard_Winter.BPI_CrystalShard_Winter_C",
+    "name": "Crystal Shard (Blue)",
+    "category": "Minerals",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/CrystalShards/BPI_CrystalShard_Spring.BPI_CrystalShard_Spring_C",
+    "name": "Crystal Shard (Green)",
+    "category": "Minerals",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/CrystalShards/BPI_CrystalShard_Summer.BPI_CrystalShard_Summer_C",
+    "name": "Crystal Shard (Purple)",
+    "category": "Minerals",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Orb/BPI_WyrdOrb.BPI_WyrdOrb_C",
     "name": "Wyrd Orb",
     "category": "Other",
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Other/BPI_AncientCloverSeal.BPI_AncientCloverSeal_C",
-    "name": "Ancient Clover Seal",
-    "category": "Utility",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Other/BPI_HealingPotionRecipe_TopHalf.BPI_HealingPotionRecipe_TopHalf_C",
-    "name": "Healing Potion Recipe Top Half",
-    "category": "Utility",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Other/BPI_OldTongueTome.BPI_OldTongueTome_C",
-    "name": "Old Tongue Tome",
-    "category": "Utility",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Other/Golfball/BPI_GolfBall.BPI_GolfBall_C",
-    "name": "Golf Ball",
-    "category": "Utility",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Projectiles/Common/BPI_Projectile_Base.BPI_Projectile_Base_C",
-    "name": "Projectile Base",
+    "class": "/Game/Items/RangedWeapons/Bow/BPI_Base_Bow.BPI_Base_Bow_C",
+    "name": "Base Bow",
     "category": "Ranged",
-    "kind": "stack"
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Blowgun/BPI_Blowgun.BPI_Blowgun_C",
+    "name": "Blowgun",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Bow/CompositeBow/BPI_CompositeBow.BPI_CompositeBow_C",
+    "name": "Composite Bow",
+    "category": "Ranged",
+    "kind": "epic"
   },
   {
     "class": "/Game/Items/Projectiles/FireArrow/BPI_FireArrow.BPI_FireArrow_C",
     "name": "Fire Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Grenade/Firesand/BPI_FiresandGrenade.BPI_FiresandGrenade_C",
+    "name": "Firesand Grenade",
     "category": "Ranged",
     "kind": "stack"
   },
@@ -1116,8 +1320,26 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/RangedWeapons/Grenade/BPI_Grenade_Base.BPI_Grenade_Base_C",
+    "name": "Grenade Base",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Firearms/HandCannon/BPI_HandCannon.BPI_HandCannon_C",
+    "name": "Hand Cannon",
+    "category": "Ranged",
+    "kind": "epic"
+  },
+  {
     "class": "/Game/Items/Projectiles/Hook/BPI_Hook.BPI_Hook_C",
     "name": "Hook",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/IronAmmo/BPI_IronAmmo.BPI_IronAmmo_C",
+    "name": "Iron Ammo",
     "category": "Ranged",
     "kind": "stack"
   },
@@ -1126,6 +1348,12 @@
     "name": "Long Arrow",
     "category": "Ranged",
     "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Firearms/Musket/BPI_Musket.BPI_Musket_C",
+    "name": "Musket",
+    "category": "Ranged",
+    "kind": "equipment"
   },
   {
     "class": "/Game/Items/Projectiles/PoisonArrow/BPI_PoisonArrow.BPI_PoisonArrow_C",
@@ -1140,32 +1368,20 @@
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Projectiles/UrticatingDart/BPI_UrticatingDart.BPI_UrticatingDart_C",
-    "name": "Urticating Dart",
+    "class": "/Game/Items/Projectiles/Common/BPI_Projectile_Base.BPI_Projectile_Base_C",
+    "name": "Projectile Base",
     "category": "Ranged",
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Projectiles/WoodArrow/BPI_WoodArrow.BPI_WoodArrow_C",
-    "name": "Wood Arrow",
+    "class": "/Game/Items/Projectiles/PyriteArrow/BPI_PyriteArrow.BPI_PyriteArrow_C",
+    "name": "Pyrite Arrow",
     "category": "Ranged",
     "kind": "stack"
   },
   {
     "class": "/Game/Items/RangedWeapons/BPI_Ranged_Base.BPI_Ranged_Base_C",
     "name": "Ranged Base",
-    "category": "Ranged",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/RangedWeapons/Blowgun/BPI_Blowgun.BPI_Blowgun_C",
-    "name": "Blowgun",
-    "category": "Ranged",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/RangedWeapons/Bow/BPI_Base_Bow.BPI_Base_Bow_C",
-    "name": "Base Bow",
     "category": "Ranged",
     "kind": "equipment"
   },
@@ -1182,22 +1398,28 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/RangedWeapons/Grenade/StinkBomb/BPI_StinkBomb.BPI_StinkBomb_C",
+    "name": "Stink Bomb",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/UrticatingDart/BPI_UrticatingDart.BPI_UrticatingDart_C",
+    "name": "Urticating Dart",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Projectiles/WoodArrow/BPI_WoodArrow.BPI_WoodArrow_C",
+    "name": "Wood Arrow",
+    "category": "Ranged",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/RangedWeapons/Bow/YuletideRecurveBow/BPI_YuletideRecurveBow.BPI_YuletideRecurveBow_C",
     "name": "Yuletide Recurve Bow",
     "category": "Ranged",
     "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/RangedWeapons/Firearms/Musket/BPI_Musket.BPI_Musket_C",
-    "name": "Musket",
-    "category": "Ranged",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/RangedWeapons/Grenade/BPI_Grenade_Base.BPI_Grenade_Base_C",
-    "name": "Grenade Base",
-    "category": "Ranged",
-    "kind": "stack"
   },
   {
     "class": "/Game/Items/Resources/BPI_Acorn.BPI_Acorn_C",
@@ -1236,6 +1458,12 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Resources/BPI_Bark.BPI_Bark_C",
+    "name": "Bark",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Resources/BPI_BeeHead.BPI_BeeHead_C",
     "name": "Bee Head",
     "category": "Resources",
@@ -1244,6 +1472,12 @@
   {
     "class": "/Game/Items/Resources/BPI_BloodDrop.BPI_BloodDrop_C",
     "name": "Blood Drop",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_BlueTitEgg.BPI_BlueTitEgg_C",
+    "name": "Blue Tit Egg",
     "category": "Resources",
     "kind": "stack"
   },
@@ -1260,284 +1494,20 @@
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Resources/BPI_Ectoplasm.BPI_Ectoplasm_C",
-    "name": "Ectoplasm",
+    "class": "/Game/Items/Resources/BPI_Bottlecap.BPI_Bottlecap_C",
+    "name": "Bottlecap",
     "category": "Resources",
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Resources/BPI_FireflyJuice.BPI_FireflyJuice_C",
-    "name": "Firefly Juice",
+    "class": "/Game/Items/Resources/BPI_Chitin.BPI_Chitin_C",
+    "name": "Chitin",
     "category": "Resources",
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Resources/BPI_Flour.BPI_Flour_C",
-    "name": "Flour",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_GoldBullion.BPI_GoldBullion_C",
-    "name": "Gold Bullion",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_GoldScrap.BPI_GoldScrap_C",
-    "name": "Gold Scrap",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_GrasshopperLeg.BPI_GrasshopperLeg_C",
-    "name": "Grasshopper Leg",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_Gunpowder.BPI_Gunpowder_C",
-    "name": "Gunpowder",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_InsectFat.BPI_InsectFat_C",
-    "name": "Insect Fat",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_InsectSting.BPI_InsectSting_C",
-    "name": "Insect Sting",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_InsectWings.BPI_InsectWings_C",
-    "name": "Insect Wings",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_KingStagPincer.BPI_KingStagPincer_C",
-    "name": "King Stag Pincer",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_LeafBlades.BPI_LeafBlades_C",
-    "name": "Leaf Blades",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_LichenPulp.BPI_LichenPulp_C",
-    "name": "Lichen Pulp",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_LizardClaw.BPI_LizardClaw_C",
-    "name": "Lizard Claw",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_LubberFemur.BPI_LubberFemur_C",
-    "name": "Lubber Femur",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_MantisHead.BPI_MantisHead_C",
-    "name": "Mantis Head",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_MetalPiece.BPI_MetalPiece_C",
-    "name": "Metal Piece",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_MouseFur.BPI_MouseFur_C",
-    "name": "Mouse Fur",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_MouseFurWhite.BPI_MouseFurWhite_C",
-    "name": "Mouse Fur White",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_MouseHide.BPI_MouseHide_C",
-    "name": "Mouse Hide",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_MushyCompound.BPI_MushyCompound_C",
-    "name": "Mushy Compound",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_Nectar.BPI_Nectar_C",
-    "name": "Nectar",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_Petal.BPI_Petal_C",
-    "name": "Petal",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_PoisonGland.BPI_PoisonGland_C",
-    "name": "Poison Gland",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_RefinedSaltpeter.BPI_RefinedSaltpeter_C",
-    "name": "Refined Saltpeter",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_RefinedSulphur.BPI_RefinedSulphur_C",
-    "name": "Refined Sulphur",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_RhinoSplitHorn.BPI_RhinoSplitHorn_C",
-    "name": "Rhino Split Horn",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SaltPeter.BPI_SaltPeter_C",
-    "name": "Salt Peter",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SapphireWings.BPI_SapphireWings_C",
-    "name": "Sapphire Wings",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_ScorpionChitin.BPI_ScorpionChitin_C",
-    "name": "Scorpion Chitin",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_ScorpionTelson.BPI_ScorpionTelson_C",
-    "name": "Scorpion Telson",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SeedOil.BPI_SeedOil_C",
-    "name": "Seed Oil",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_Seeds.BPI_Seeds_C",
-    "name": "Seeds",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SerratedChitin.BPI_SerratedChitin_C",
-    "name": "Serrated Chitin",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_Seta.BPI_Seta_C",
-    "name": "Seta",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SilkThread.BPI_SilkThread_C",
-    "name": "Silk Thread",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SnakeFang.BPI_SnakeFang_C",
-    "name": "Snake Fang",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SnakeLeather.BPI_SnakeLeather_C",
-    "name": "Snake Leather",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SnakeSkin.BPI_SnakeSkin_C",
-    "name": "Snake Skin",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SorrelLeaf.BPI_SorrelLeaf_C",
-    "name": "Sorrel Leaf",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SpiderHead.BPI_SpiderHead_C",
-    "name": "Spider Head",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_SpiderMatriarchFang.BPI_SpiderMatriarchFang_C",
-    "name": "Spider Matriarch Fang",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_StinkGland.BPI_StinkGland_C",
-    "name": "Stink Gland",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_Sulphur.BPI_Sulphur_C",
-    "name": "Sulphur",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_TibialSpine.BPI_TibialSpine_C",
-    "name": "Tibial Spine",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_UrticatingHair.BPI_UrticatingHair_C",
-    "name": "Urticating Hair",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_WaspQueenHead.BPI_WaspQueenHead_C",
-    "name": "Wasp Queen Head",
+    "class": "/Game/Items/Resources/BPI_Clay.BPI_Clay_C",
+    "name": "Clay",
     "category": "Resources",
     "kind": "stack"
   },
@@ -1554,38 +1524,8 @@
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Resources/Banners/BPI_LisandraBanner1.BPI_LisandraBanner1_C",
-    "name": "Lisandra Banner1",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/Banners/BPI_LisandraBanner2.BPI_LisandraBanner2_C",
-    "name": "Lisandra Banner2",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/Banners/BPI_MirmekBanner1.BPI_MirmekBanner1_C",
-    "name": "Mirmek Banner1",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/Banners/BPI_MirmekBanner2.BPI_MirmekBanner2_C",
-    "name": "Mirmek Banner2",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/Banners/BPI_SkadiBanner1.BPI_SkadiBanner1_C",
-    "name": "Skadi Banner1",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/Banners/BPI_SkadiBanner2.BPI_SkadiBanner2_C",
-    "name": "Skadi Banner2",
+    "class": "/Game/Items/Resources/BPI_Ectoplasm.BPI_Ectoplasm_C",
+    "name": "Ectoplasm",
     "category": "Resources",
     "kind": "stack"
   },
@@ -1812,6 +1752,396 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Resources/BPI_Feather.BPI_Feather_C",
+    "name": "Feather",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Fiber.BPI_Fiber_C",
+    "name": "Fiber",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_FiberString.BPI_FiberString_C",
+    "name": "Fiber String",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_FireflyJuice.BPI_FireflyJuice_C",
+    "name": "Firefly Juice",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Flint.BPI_Flint_C",
+    "name": "Flint",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Flour.BPI_Flour_C",
+    "name": "Flour",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GarlicLeaf.BPI_GarlicLeaf_C",
+    "name": "Garlic Leaf",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GoldBullion.BPI_GoldBullion_C",
+    "name": "Gold Bullion",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GoldScrap.BPI_GoldScrap_C",
+    "name": "Gold Scrap",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_GrasshopperLeg.BPI_GrasshopperLeg_C",
+    "name": "Grasshopper Leg",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Gunpowder.BPI_Gunpowder_C",
+    "name": "Gunpowder",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_InsectFat.BPI_InsectFat_C",
+    "name": "Insect Fat",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_InsectSting.BPI_InsectSting_C",
+    "name": "Insect Sting",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_InsectWings.BPI_InsectWings_C",
+    "name": "Insect Wings",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_IronIngot.BPI_IronIngot_C",
+    "name": "Iron Ingot",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Ironwood.BPI_Ironwood_C",
+    "name": "Ironwood",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_KingStagPincer.BPI_KingStagPincer_C",
+    "name": "King Stag Pincer",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LeafBlades.BPI_LeafBlades_C",
+    "name": "Leaf Blades",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LichenPulp.BPI_LichenPulp_C",
+    "name": "Lichen Pulp",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_LisandraBanner1.BPI_LisandraBanner1_C",
+    "name": "Lisandra Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_LisandraBanner2.BPI_LisandraBanner2_C",
+    "name": "Lisandra Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LizardClaw.BPI_LizardClaw_C",
+    "name": "Lizard Claw",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_LubberFemur.BPI_LubberFemur_C",
+    "name": "Lubber Femur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MantisHead.BPI_MantisHead_C",
+    "name": "Mantis Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MetalPiece.BPI_MetalPiece_C",
+    "name": "Metal Piece",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_MirmekBanner1.BPI_MirmekBanner1_C",
+    "name": "Mirmek Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_MirmekBanner2.BPI_MirmekBanner2_C",
+    "name": "Mirmek Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MouseFur.BPI_MouseFur_C",
+    "name": "Mouse Fur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MouseFurWhite.BPI_MouseFurWhite_C",
+    "name": "Mouse Fur White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MouseHide.BPI_MouseHide_C",
+    "name": "Mouse Hide",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_MushyCompound.BPI_MushyCompound_C",
+    "name": "Mushy Compound",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Nectar.BPI_Nectar_C",
+    "name": "Nectar",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Petal.BPI_Petal_C",
+    "name": "Petal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_PoisonGland.BPI_PoisonGland_C",
+    "name": "Poison Gland",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Pyrite.BPI_Pyrite_C",
+    "name": "Pyrite",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RefinedChitin.BPI_RefinedChitin_C",
+    "name": "Refined Chitin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RefinedSaltpeter.BPI_RefinedSaltpeter_C",
+    "name": "Refined Saltpeter",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RefinedSulphur.BPI_RefinedSulphur_C",
+    "name": "Refined Sulphur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RefinedWood.BPI_RefinedWood_C",
+    "name": "Refined Wood",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ReishiLeather.BPI_ReishiLeather_C",
+    "name": "Reishi Leather",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Resin.BPI_Resin_C",
+    "name": "Resin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_RhinoSplitHorn.BPI_RhinoSplitHorn_C",
+    "name": "Rhino Split Horn",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SaltPeter.BPI_SaltPeter_C",
+    "name": "Salt Peter",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SapphireWings.BPI_SapphireWings_C",
+    "name": "Sapphire Wings",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ScorpionChitin.BPI_ScorpionChitin_C",
+    "name": "Scorpion Chitin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ScorpionTelson.BPI_ScorpionTelson_C",
+    "name": "Scorpion Telson",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Screw.BPI_Screw_C",
+    "name": "Screw",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SeedOil.BPI_SeedOil_C",
+    "name": "Seed Oil",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Seeds.BPI_Seeds_C",
+    "name": "Seeds",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SerratedChitin.BPI_SerratedChitin_C",
+    "name": "Serrated Chitin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Seta.BPI_Seta_C",
+    "name": "Seta",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Silk.BPI_Silk_C",
+    "name": "Silk",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SilkThread.BPI_SilkThread_C",
+    "name": "Silk Thread",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_SkadiBanner1.BPI_SkadiBanner1_C",
+    "name": "Skadi Banner1",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/Banners/BPI_SkadiBanner2.BPI_SkadiBanner2_C",
+    "name": "Skadi Banner2",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SnakeFang.BPI_SnakeFang_C",
+    "name": "Snake Fang",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SnakeLeather.BPI_SnakeLeather_C",
+    "name": "Snake Leather",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SnakeSkin.BPI_SnakeSkin_C",
+    "name": "Snake Skin",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SorrelLeaf.BPI_SorrelLeaf_C",
+    "name": "Sorrel Leaf",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SpiderHead.BPI_SpiderHead_C",
+    "name": "Spider Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_SpiderMatriarchFang.BPI_SpiderMatriarchFang_C",
+    "name": "Spider Matriarch Fang",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_StinkGland.BPI_StinkGland_C",
+    "name": "Stink Gland",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Stone.BPI_Stone_C",
+    "name": "Stone",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_StoneBrick.BPI_StoneBrick_C",
+    "name": "Stone Brick",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Sulphur.BPI_Sulphur_C",
+    "name": "Sulphur",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Resources/ToyCubes/BPI_TC_Blue.BPI_TC_Blue_C",
     "name": "TC Blue",
     "category": "Resources",
@@ -1872,21 +2202,39 @@
     "kind": "stack"
   },
   {
-    "class": "/Game/Items/Staffs/BPI_Staff_Base.BPI_Staff_Base_C",
-    "name": "Staff Base",
-    "category": "Weapons",
-    "kind": "equipment"
+    "class": "/Game/Items/Resources/BPI_TextilePatch.BPI_TextilePatch_C",
+    "name": "Textile Patch",
+    "category": "Resources",
+    "kind": "stack"
   },
   {
-    "class": "/Game/Items/Staffs/Basic/BPI_Staff_Basic.BPI_Staff_Basic_C",
-    "name": "Staff Basic",
-    "category": "Weapons",
-    "kind": "equipment"
+    "class": "/Game/Items/Resources/BPI_TibialSpine.BPI_TibialSpine_C",
+    "name": "Tibial Spine",
+    "category": "Resources",
+    "kind": "stack"
   },
   {
-    "class": "/Game/Items/Staffs/Basic/Summer/BPI_Staff_Basic_Summer.BPI_Staff_Basic_Summer_C",
-    "name": "Staff Basic Summer",
-    "category": "Weapons",
+    "class": "/Game/Items/Resources/BPI_UrticatingHair.BPI_UrticatingHair_C",
+    "name": "Urticating Hair",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_WaspQueenHead.BPI_WaspQueenHead_C",
+    "name": "Wasp Queen Head",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_Wood.BPI_Wood_C",
+    "name": "Wood",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Tools/BuildersHammer/BPI_BuildersHammer.BPI_BuildersHammer_C",
+    "name": "Builder's Hammer",
+    "category": "Tools",
     "kind": "equipment"
   },
   {
@@ -1944,14 +2292,38 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Tools/ScrapPickaxe/BPI_SpikePickaxe.BPI_SpikePickaxe_C",
-    "name": "Spike Pickaxe",
+    "class": "/Game/Items/Tools/PyriteHatchet/BPI_PyriteHatchet.BPI_PyriteHatchet_C",
+    "name": "Pyrite Hatchet",
     "category": "Tools",
-    "kind": "equipment"
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/Tools/PyritePickaxe/BPI_PyritePickaxe.BPI_PyritePickaxe_C",
+    "name": "Pyrite Pickaxe",
+    "category": "Tools",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/Tools/RevivalTool/BPI_RevivalTool.BPI_RevivalTool_C",
+    "name": "Revival Tool",
+    "category": "Tools",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Tools/RevivalToolGuild/BPI_RevivalToolGuild.BPI_RevivalToolGuild_C",
+    "name": "Revival Tool (Guild)",
+    "category": "Tools",
+    "kind": "stack"
   },
   {
     "class": "/Game/Items/Tools/Shears/BPI_Shears.BPI_Shears_C",
     "name": "Shears",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/ScrapPickaxe/BPI_SpikePickaxe.BPI_SpikePickaxe_C",
+    "name": "Spike Pickaxe",
     "category": "Tools",
     "kind": "equipment"
   },
@@ -1968,16 +2340,40 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Axes/MetalAxe/BPI_MetalAxe.BPI_MetalAxe_C",
-    "name": "Metal Axe",
-    "category": "Weapons",
-    "kind": "equipment"
+    "class": "/Game/Items/Other/BPI_AncientCloverSeal.BPI_AncientCloverSeal_C",
+    "name": "Ancient Clover Seal",
+    "category": "Utility",
+    "kind": "stack"
   },
   {
-    "class": "/Game/Items/Weapons/BPI_MeleeWeapon_Base.BPI_MeleeWeapon_Base_C",
-    "name": "Melee Weapon Base",
-    "category": "Weapons",
-    "kind": "equipment"
+    "class": "/Game/Items/Other/BPI_Coin.BPI_Coin_C",
+    "name": "Coin",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/Golfball/BPI_GolfBall.BPI_GolfBall_C",
+    "name": "Golf Ball",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_HealingPotionRecipe_TopHalf.BPI_HealingPotionRecipe_TopHalf_C",
+    "name": "Healing Potion Recipe Top Half",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_OldTongueTome.BPI_OldTongueTome_C",
+    "name": "Old Tongue Tome",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/SummoningPebble/BPI_SummoningPebble.BPI_SummoningPebble_C",
+    "name": "Summoning Pebble",
+    "category": "Utility",
+    "kind": "stack"
   },
   {
     "class": "/Game/Items/Weapons/Club/Bone_Club/BPI_BoneMace.BPI_BoneMace_C",
@@ -1986,62 +2382,20 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Club/LubberMace/BPI_LubberMace.BPI_LubberMace_C",
-    "name": "Lubber Mace",
+    "class": "/Game/Items/Weapons/Swords/FangSabre/BPI_FangSabre.BPI_FangSabre_C",
+    "name": "Fang Sabre",
     "category": "Weapons",
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Club/Torch/BPI_Torch.BPI_Torch_C",
-    "name": "Torch",
+    "class": "/Game/Items/Weapons/Spears/FlintSpear/BPI_FlintSpear.BPI_FlintSpear_C",
+    "name": "Flint Spear",
     "category": "Weapons",
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Club/WoodClub/BPI_WoodClub.BPI_WoodClub_C",
-    "name": "Wood Club",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/Common/BPI_MW_HammerBase.BPI_MW_HammerBase_C",
-    "name": "MW Hammer Base",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/MetalHammer/BPI_MetalHammer.BPI_MetalHammer_C",
-    "name": "Metal Hammer",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/Morningstar/BPI_Morningstar.BPI_Morningstar_C",
-    "name": "Morningstar",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/PoisonedMace/BPI_PoisonedMace.BPI_PoisonedMace_C",
-    "name": "Poisoned Mace",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/PyriteHammer/BPI_PyriteHammer.BPI_PyriteHammer_C",
-    "name": "Pyrite Hammer",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/Stonehammer/BPI_StoneHammer.BPI_StoneHammer_C",
-    "name": "Stone Hammer",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Hammers/YuletideMetalHammer/BPI_YuletideMetalHammer.BPI_YuletideMetalHammer_C",
-    "name": "Yuletide Metal Hammer",
+    "class": "/Game/Items/Weapons/Swords/FlintSword/BPI_FlintSword.BPI_FlintSword_C",
+    "name": "Flint Sword",
     "category": "Weapons",
     "kind": "equipment"
   },
@@ -2058,44 +2412,14 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Sabres/MetalScythe/BPI_MetalScythe.BPI_MetalScythe_C",
-    "name": "Metal Scythe",
+    "class": "/Game/Items/Weapons/Club/LubberMace/BPI_LubberMace.BPI_LubberMace_C",
+    "name": "Lubber Mace",
     "category": "Weapons",
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Spears/BPI_Spear_Base.BPI_Spear_Base_C",
-    "name": "Spear Base",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Spears/FlintSpear/BPI_FlintSpear.BPI_FlintSpear_C",
-    "name": "Flint Spear",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Spears/RodentSpear/BPI_RodentSpear.BPI_RodentSpear_C",
-    "name": "Rodent Spear",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Spears/StoneSpear/BPI_StoneSpear.BPI_StoneSpear_C",
-    "name": "Stone Spear",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Swords/FangSabre/BPI_FangSabre.BPI_FangSabre_C",
-    "name": "Fang Sabre",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/Swords/FlintSword/BPI_FlintSword.BPI_FlintSword_C",
-    "name": "Flint Sword",
+    "class": "/Game/Items/Weapons/Hammers/Common/BPI_MW_HammerBase.BPI_MW_HammerBase_C",
+    "name": "MW Hammer Base",
     "category": "Weapons",
     "kind": "equipment"
   },
@@ -2106,14 +2430,152 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/Weapons/BPI_MeleeWeapon_Base.BPI_MeleeWeapon_Base_C",
+    "name": "Melee Weapon Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Axes/MetalAxe/BPI_MetalAxe.BPI_MetalAxe_C",
+    "name": "Metal Axe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/MetalHammer/BPI_MetalHammer.BPI_MetalHammer_C",
+    "name": "Metal Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Sabres/MetalScythe/BPI_MetalScythe.BPI_MetalScythe_C",
+    "name": "Metal Scythe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
     "class": "/Game/Items/Weapons/Swords/MetalSword/BPI_MetalSword.BPI_MetalSword_C",
     "name": "Metal Sword",
     "category": "Weapons",
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/Weapons/Hammers/Morningstar/BPI_Morningstar.BPI_Morningstar_C",
+    "name": "Morningstar",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedAxes/AntGreataxe/BPI_MyrmekWeapon1.BPI_MyrmekWeapon1_C",
+    "name": "Myrmek Weapon1",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/PoisonedMace/BPI_PoisonedMace.BPI_PoisonedMace_C",
+    "name": "Poisoned Mace",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedAxes/PyriteGreataxe/BPI_PyriteGreataxe.BPI_PyriteGreataxe_C",
+    "name": "Pyrite Greataxe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedSwords/PyriteGreatsword/BPI_PyriteGreatsword.BPI_PyriteGreatsword_C",
+    "name": "Pyrite Greatsword",
+    "category": "Weapons",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/PyriteHammer/BPI_PyriteHammer.BPI_PyriteHammer_C",
+    "name": "Pyrite Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/RodentSpear/BPI_RodentSpear.BPI_RodentSpear_C",
+    "name": "Rodent Spear",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
     "class": "/Game/Items/Weapons/Swords/SharpenedWood/BPI_SharpenedWood.BPI_SharpenedWood_C",
     "name": "Sharpened Wood",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/BPI_Spear_Base.BPI_Spear_Base_C",
+    "name": "Spear Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Staffs/BPI_Staff_Base.BPI_Staff_Base_C",
+    "name": "Staff Base",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Staffs/Basic/BPI_Staff_Basic.BPI_Staff_Basic_C",
+    "name": "Staff Basic",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Staffs/Basic/Summer/BPI_Staff_Basic_Summer.BPI_Staff_Basic_Summer_C",
+    "name": "Staff Basic Summer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Staffs/Wyrdweaver/BPI_Staff_Wyrdweaver.BPI_Staff_Wyrdweaver_C",
+    "name": "Staff Wyrdweaver",
+    "category": "Weapons",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/StingerLance/BPI_StingerLance.BPI_StingerLance_C",
+    "name": "Stinger Lance",
+    "category": "Weapons",
+    "kind": "epic"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/Stonehammer/BPI_StoneHammer.BPI_StoneHammer_C",
+    "name": "Stone Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/StoneSpear/BPI_StoneSpear.BPI_StoneSpear_C",
+    "name": "Stone Spear",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedHammers/TelsonHammer/BPI_TelsonHammer.BPI_TelsonHammer_C",
+    "name": "Telson Hammer",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Club/Torch/BPI_Torch.BPI_Torch_C",
+    "name": "Torch",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Club/WoodClub/BPI_WoodClub.BPI_WoodClub_C",
+    "name": "Wood Club",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/YuletideMetalHammer/BPI_YuletideMetalHammer.BPI_YuletideMetalHammer_C",
+    "name": "Yuletide Metal Hammer",
     "category": "Weapons",
     "kind": "equipment"
   },
@@ -2126,24 +2588,6 @@
   {
     "class": "/Game/Items/Weapons/Swords/YuletideWoodSword/BPI_YuletideSharpenedWood.BPI_YuletideSharpenedWood_C",
     "name": "Yuletide Sharpened Wood",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/TwoHandedAxes/AntGreataxe/BPI_MyrmekWeapon1.BPI_MyrmekWeapon1_C",
-    "name": "Myrmek Weapon1",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/TwoHandedAxes/PyriteGreataxe/BPI_PyriteGreataxe.BPI_PyriteGreataxe_C",
-    "name": "Pyrite Greataxe",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
-    "class": "/Game/Items/Weapons/TwoHandedHammers/TelsonHammer/BPI_TelsonHammer.BPI_TelsonHammer_C",
-    "name": "Telson Hammer",
     "category": "Weapons",
     "kind": "equipment"
   }

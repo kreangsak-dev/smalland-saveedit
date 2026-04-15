@@ -4,22 +4,22 @@
  */
 
 /** Shared fallback when no file exists in `/wiki-thumbs/`. */
-export const MISSING_THUMB_URL = '/no-thumb.svg';
+export const MISSING_THUMB_URL = "/no-thumb.svg";
 
-export const LOCAL_WIKI_THUMB_BASE = '/wiki-thumbs';
+export const LOCAL_WIKI_THUMB_BASE = "/wiki-thumbs";
 
 /**
  * In-game display name → file basename (spaces → underscores).
  * Override when your bundled filename differs from the display label.
  */
 const ITEM_FILE_OVERRIDES: Record<string, string> = {
-  Coin: 'Hoots',
-  'Firesand Grenade': 'Firesand Bomb',
-  'Staff Wyrdweaver': 'Wyrdweaver',
+  Coin: "Hoots",
+  "Firesand Grenade": "Firesand Bomb",
+  "Staff Wyrdweaver": "Wyrdweaver",
 };
 
 function pngFileName(displayName: string): string {
-  const base = displayName.trim().replace(/ /g, '_');
+  const base = displayName.trim().replace(/ /g, "_");
   return `${base}.png`;
 }
 
@@ -40,8 +40,8 @@ export function getWikiItemImageUrl(displayName: string): string {
 
 export function stripPetLabelForWikiThumb(petLabel: string): string {
   return petLabel
-    .replace(/^[\s\uFE0F\u200D]+/g, '')
-    .replace(/^(\p{Extended_Pictographic}[\uFE0F\u200D]*)+/u, '')
+    .replace(/^[\s\uFE0F\u200D]+/g, "")
+    .replace(/^(\p{Extended_Pictographic}[\uFE0F\u200D]*)+/u, "")
     .trim();
 }
 

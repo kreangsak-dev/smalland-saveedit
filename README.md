@@ -50,12 +50,11 @@ The UI shows which mode is active via `/api/config`.
 
 Display names and categories for the editor come from **`GET /api/items`** and **`GET /api/pets`**, built in Go from:
 
-- `internal/catalog/items.go` — curated rows (your edits here **override** the same `class` in the embedded bulk list).
-- `internal/catalog/items_fnames.json` — merged at startup; `items.go` wins on duplicate class paths.
-- `internal/catalog/pets.go` — curated companion labels (emoji names). Merge order: `pets_fnames.json` → `pets_extra.json` → curated rows in `pets.go` (later wins on same `class`).
-- **`pets_fnames.json`** — auto-extracted from `save-editor/FNames.txt` (`_generate_pet_classes_from_fnames.py`). The UEDumper name table often **does not include** full paths like `/Game/.../BP_Scorpion.BP_Scorpion_C` for many creatures (only materials, ABPs, or short names), so the scan only picks up a handful of Blueprint paths. Known-good paths that are missing from the dump stay in **`petClassesCurated`** or can be added to **`pets_extra.json`** as `{ "class": "...", "name": "..." }` and rebuilt.
+- `internal/catalog/items_catalog.json` — full item list (`class`, `name`, `category`, `kind`) for the editor; edit this file to add or fix rows, then rebuild the server.
+- `internal/catalog/pets_catalog.json` — companion classes (`class` + `name`). Regenerate with `_generate_pet_classes_from_fnames.py`: merges new BP_ paths from FNames into this file without removing manual rows.
+- `internal/catalog/pets.go` — `petClassesCurated` (emoji labels); merged after `pets_catalog.json` and **wins** on duplicate `class`.
 
-After changing `items.go` (or other catalog sources), **rebuild and restart the Go server** so `init()` runs again. **Hard refresh** the browser so the React catalog provider refetches `/api/items`.
+After changing embedded JSON (or `pets.go` curated slice), **rebuild and restart the Go server** so `init()` runs again. **Hard refresh** the browser so the React catalog provider refetches `/api/items`.
 
 ## Production build (frontend only)
 

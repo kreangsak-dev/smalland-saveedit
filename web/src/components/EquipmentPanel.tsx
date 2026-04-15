@@ -4,7 +4,6 @@ import { cloneSave, mergeEquipmentDraftInto, type SaveMergePanelRef } from '@/li
 import { getNextId, saveIdToKey, saveIdsEqual } from '@/lib/saveIds';
 import { isCatalogGearKind } from '@/lib/itemCatalogKinds';
 import { useItemCatalog } from '@/context/ItemCatalogContext';
-import type { ItemDefinition } from '@/lib/itemDatabaseTypes';
 import WikiThumbImg from '@/components/WikiThumbImg';
 import { Star, Save, RotateCcw, Trash2, Search, X, ChevronRight } from 'lucide-react';
 import { toast } from 'sonner';
@@ -46,6 +45,9 @@ function getCategoryIcon(category: string): string {
   };
   return icons[category] ?? '\u{1F4E6}';
 }
+
+/** Strong match threshold for picker: only these items are offered for a slot. */
+const SLOT_MATCH_MIN_SCORE = 10;
 
 /** Heuristic: higher score = item more likely belongs in this slot. */
 function slotRelevance(slot: string, cls: string): number {
@@ -116,31 +118,20 @@ const EquipmentPanel = forwardRef<SaveMergePanelRef, Props>(function EquipmentPa
   const [eqStackQty, setEqStackQty] = useState(100);
   const [imgErrors, setImgErrors] = useState<Set<string>>(new Set());
 
-  // ── Picker items — sorted by relevance to selected slot ──
+  // ── Picker items — only classes that match the selected slot (ammo stacks included for Ammunition) ──
   const pickerItems = useMemo(() => {
-    let list: ItemDefinition[] = items.filter(i => isCatalogGearKind(i.kind));
-    if (selectedSlot === 'Ammunition') {
-      const ammo = items.filter(i =>
-        i.kind === 'stack' && (
-          i.class.toLowerCase().includes('/projectiles/') ||
-          i.class.toLowerCase().includes('arrow') ||
-          i.class.toLowerCase().includes('ammo') ||
-          i.class.toLowerCase().includes('grenade')
-        ),
-      );
-      list = [...list, ...ammo];
-    }
+    if (!selectedSlot) return [];
+    const list = items.filter(i => {
+      const kindOk = isCatalogGearKind(i.kind) || (selectedSlot === 'Ammunition' && i.kind === 'stack');
+      if (!kindOk) return false;
+      return slotRelevance(selectedSlot, i.class) >= SLOT_MATCH_MIN_SCORE;
+    });
+    let out = list;
     if (pickerSearch) {
       const q = pickerSearch.toLowerCase();
-      list = list.filter(i => i.name.toLowerCase().includes(q) || i.class.toLowerCase().includes(q));
+      out = out.filter(i => i.name.toLowerCase().includes(q) || i.class.toLowerCase().includes(q));
     }
-    if (selectedSlot) {
-      list = [...list].sort((a, b) => {
-        const d = slotRelevance(selectedSlot, b.class) - slotRelevance(selectedSlot, a.class);
-        return d !== 0 ? d : a.name.localeCompare(b.name);
-      });
-    }
-    return list;
+    return [...out].sort((a, b) => a.name.localeCompare(b.name));
   }, [items, selectedSlot, pickerSearch]);
 
   // ── Actions ──
@@ -502,7 +493,6 @@ const EquipmentPanel = forwardRef<SaveMergePanelRef, Props>(function EquipmentPa
                   )}
                   {pickerItems.map(item => {
                     const hasErr = imgErrors.has(item.name);
-                    const relevance = sel ? slotRelevance(sel, item.class) : 0;
                     return (
                       <button key={item.class} type="button"
                         onClick={() => sel && equipToSlot(sel, item.class)}
@@ -519,9 +509,6 @@ const EquipmentPanel = forwardRef<SaveMergePanelRef, Props>(function EquipmentPa
                           <div className="text-xs font-medium text-gray-800 leading-snug line-clamp-1">{item.name}</div>
                           <div className="text-[10px] text-gray-400">{item.category}</div>
                         </div>
-                        {relevance >= 10 && (
-                          <span className="shrink-0 px-1.5 py-0.5 text-[9px] font-bold rounded bg-teal-100 text-teal-700">Match</span>
-                        )}
                         <span className={`shrink-0 px-1.5 py-0.5 text-[9px] font-medium rounded ${item.kind === 'epic' ? 'bg-amber-100 text-amber-600' : item.kind === 'stack' ? 'bg-green-100 text-green-600' : 'bg-blue-100 text-blue-600'}`}>
                           {item.kind}
                         </span>

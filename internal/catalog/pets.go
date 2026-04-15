@@ -6,13 +6,20 @@ import (
 	"sort"
 )
 
-//go:embed pets_fnames.json
-var petsFnamesJSON []byte
+//go:embed pets_catalog.json
+var petsCatalogJSON []byte
 
-//go:embed pets_extra.json
-var petsExtraJSON []byte
+//go:embed pet_traits.json
+var petTraitsJSON []byte
 
-// petClassesCurated — hand-picked labels (emoji). Merge order: pets_fnames.json → pets_extra.json → this slice (later wins).
+// PetTraits, IncreasedInventoryTraitPath, DefaultNewPetTraitPaths — loaded from pet_traits.json in init.
+var (
+	PetTraits                     []PetTrait
+	IncreasedInventoryTraitPath   string
+	DefaultNewPetTraitPaths       []string
+)
+
+// petClassesCurated — hand-picked labels (emoji). Merge order: pets_catalog.json → this slice (later wins).
 var petClassesCurated = []PetClass{
 	{"/Game/Pawns/Animals/BlueTit_Domesticated/BP_BlueTit_Domesticated.BP_BlueTit_Domesticated_C", "\U0001f426 Blue Tit (Domesticated)"},
 	{"/Game/Pawns/Animals/Ants/AntWarrior_Black/BP_AntWarrior_Black.BP_AntWarrior_Black_C", "\U0001f41c Black Ant Warrior"},
@@ -21,23 +28,28 @@ var petClassesCurated = []PetClass{
 	{"/Game/Pawns/Animals/Hornet/BP_Hornet.BP_Hornet_C", "\U0001f41d Black Hornet"},
 }
 
-// PetClasses is merged from FNames scan + optional extras + curated. Used by GET /api/pets.
+// PetClasses is merged from pets_catalog.json + curated. Used by GET /api/pets.
 var PetClasses []PetClass
 
 func init() {
-	var fromFnames []PetClass
-	if err := json.Unmarshal(petsFnamesJSON, &fromFnames); err != nil {
-		panic("catalog: pets_fnames.json: " + err.Error())
+	var ptf struct {
+		Traits                      []PetTrait `json:"traits"`
+		IncreasedInventoryTraitPath string     `json:"increasedInventoryTraitPath"`
+		DefaultNewPetTraitPaths     []string   `json:"defaultNewPetTraitPaths"`
 	}
-	var fromExtra []PetClass
-	if err := json.Unmarshal(petsExtraJSON, &fromExtra); err != nil {
-		panic("catalog: pets_extra.json: " + err.Error())
+	if err := json.Unmarshal(petTraitsJSON, &ptf); err != nil {
+		panic("catalog: pet_traits.json: " + err.Error())
 	}
-	by := make(map[string]PetClass, len(fromFnames)+len(fromExtra)+len(petClassesCurated))
-	for _, p := range fromFnames {
-		by[p.Class] = p
+	PetTraits = ptf.Traits
+	IncreasedInventoryTraitPath = ptf.IncreasedInventoryTraitPath
+	DefaultNewPetTraitPaths = ptf.DefaultNewPetTraitPaths
+
+	var fromCatalog []PetClass
+	if err := json.Unmarshal(petsCatalogJSON, &fromCatalog); err != nil {
+		panic("catalog: pets_catalog.json: " + err.Error())
 	}
-	for _, p := range fromExtra {
+	by := make(map[string]PetClass, len(fromCatalog)+len(petClassesCurated))
+	for _, p := range fromCatalog {
 		by[p.Class] = p
 	}
 	for _, p := range petClassesCurated {
@@ -54,50 +66,6 @@ func init() {
 		return PetClasses[i].Class < PetClasses[j].Class
 	})
 }
-
-var (
-	PetTraits = []PetTrait{
-		{Path: "/Game/Pawns/Common/CharacterTraits/Sturdy/CT_Sturdy.CT_Sturdy", Name: "Sturdy", Category: "Defense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/ThickChitin/CT_ThickChitin.CT_ThickChitin", Name: "Thick Chitin", Category: "Defense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Bolstered/CT_Bolstered.CT_Bolstered", Name: "Bolstered", Category: "Defense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/LikeASoftPlushie/CT_LikeASoftPlushie.CT_LikeASoftPlushie", Name: "Like A Soft Plushie", Category: "Defense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/TooCuteToDie/CT_TooCuteToDie.CT_TooCuteToDie", Name: "Too Cute To Die", Category: "Defense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/DefensiveTactician/CT_DefensiveTactician.CT_DefensiveTactician", Name: "Defensive Tactician", Category: "Offense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Territorial/CT_Territorial.CT_Territorial", Name: "Territorial", Category: "Offense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/StinkExplosion/CT_StinkExplosion.CT_StinkExplosion", Name: "Stink Explosion", Category: "Offense"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Metabolism/CT_Metabolism.CT_Metabolism", Name: "Metabolism", Category: "Food"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/EnhancedMetabolism/CT_EnhancedMetabolism.CT_EnhancedMetabolism", Name: "Enhanced Metabolism", Category: "Food"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/SweetTooth/CT_SweetTooth.CT_SweetTooth", Name: "Sweet Tooth", Category: "Food"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Mycologist/CT_Mycologist.CT_Mycologist", Name: "Mycologist", Category: "Food"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Pollinator/CT_Pollinator.CT_Pollinator", Name: "Pollinator", Category: "Food"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/HiddenPouch/CT_HiddenPouch.CT_HiddenPouch", Name: "Hidden Pouch", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/IncreasedInventory/CT_IncreasedInventory.CT_IncreasedInventory", Name: "Increased Inventory", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Excavator/CT_Excavator.CT_Excavator", Name: "Excavator", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Scrapbug/CT_Scrapbug.CT_Scrapbug", Name: "Scrapbug", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/FastLearner/CT_FastLearner.CT_FastLearner", Name: "Fast Learner", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/HealingAura/CT_HealingAura.CT_HealingAura", Name: "Healing Aura", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/LoyalToTheEnd/CT_LoyalToTheEnd.CT_LoyalToTheEnd", Name: "Loyal To The End", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/ImprovedJump/CT_ImprovedJump.CT_ImprovedJump", Name: "Improved Jump", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/ShareTheLove/CT_ShareTheLove.CT_ShareTheLove", Name: "Share The Love", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/Bioluminescence/CT_Bioluminescence.CT_Bioluminescence", Name: "Bioluminescence", Category: "Utility"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Weakest.CT_BondStrength_Weakest", Name: "Bond Strength (Weakest)", Category: "Bond"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Weak.CT_BondStrength_Weak", Name: "Bond Strength (Weak)", Category: "Bond"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Medium.CT_BondStrength_Medium", Name: "Bond Strength (Medium)", Category: "Bond"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Strong.CT_BondStrength_Strong", Name: "Bond Strength (Strong)", Category: "Bond"},
-		{Path: "/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Strongest.CT_BondStrength_Strongest", Name: "Bond Strength (Strongest)", Category: "Bond"},
-	}
-
-	// IncreasedInventoryTraitPath is required to add items to companion inventory.
-	IncreasedInventoryTraitPath = "/Game/Pawns/Common/CharacterTraits/IncreasedInventory/CT_IncreasedInventory.CT_IncreasedInventory"
-
-	// DefaultNewPetTraitPaths — default rows when creating a companion in the editor.
-	DefaultNewPetTraitPaths = []string{
-		"/Game/Pawns/Common/CharacterTraits/HealingAura/CT_HealingAura.CT_HealingAura",
-		"/Game/Pawns/Common/CharacterTraits/LoyalToTheEnd/CT_LoyalToTheEnd.CT_LoyalToTheEnd",
-		"/Game/Pawns/Common/CharacterTraits/BondStrength/CT_BondStrength_Strongest.CT_BondStrength_Strongest",
-		IncreasedInventoryTraitPath,
-	}
-)
 
 // PetsAPIResponse is GET /api/pets.
 type PetsAPIResponse struct {
