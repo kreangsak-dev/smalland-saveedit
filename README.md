@@ -79,4 +79,4 @@ Output is `web/dist`. Serving that folder together with the API is project-speci
 
 ## Credits
 
-- **[Smalland: Survive the Wilds Wiki](https://smallandsurvivethewilds.wiki.gg/)** — item imagery and community reference data used in the editor UI (see `web/scripts/fetch-wiki-thumbs.mjs` and `web/public/wiki-thumbs/`).
+- **[Smalland: Survive the Wilds Wiki](https://smallandsurvivethewilds.wiki.gg/)** — item imagery and community reference data used in the editor UI (see `web/public/wiki-thumbs/`).
