@@ -2172,6 +2172,18 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Resources/BPI_TextilePatch.BPI_TextilePatch_C",
+    "name": "Textile Patch",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_TibialSpine.BPI_TibialSpine_C",
+    "name": "Tibial Spine",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_01.BPI_TS_01_C",
     "name": "TS 01",
     "category": "Resources",
@@ -2198,18 +2210,6 @@
   {
     "class": "/Game/Items/Resources/ToySoldiers/BPI_TS_05.BPI_TS_05_C",
     "name": "TS 05",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_TextilePatch.BPI_TextilePatch_C",
-    "name": "Textile Patch",
-    "category": "Resources",
-    "kind": "stack"
-  },
-  {
-    "class": "/Game/Items/Resources/BPI_TibialSpine.BPI_TibialSpine_C",
-    "name": "Tibial Spine",
     "category": "Resources",
     "kind": "stack"
   },
@@ -2418,12 +2418,6 @@
     "kind": "equipment"
   },
   {
-    "class": "/Game/Items/Weapons/Hammers/Common/BPI_MW_HammerBase.BPI_MW_HammerBase_C",
-    "name": "MW Hammer Base",
-    "category": "Weapons",
-    "kind": "equipment"
-  },
-  {
     "class": "/Game/Items/Weapons/Swords/MantisSabre/BPI_MantisSabre.BPI_MantisSabre_C",
     "name": "Mantis Sabre",
     "category": "Weapons",
@@ -2462,6 +2456,12 @@
   {
     "class": "/Game/Items/Weapons/Hammers/Morningstar/BPI_Morningstar.BPI_Morningstar_C",
     "name": "Morningstar",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Hammers/Common/BPI_MW_HammerBase.BPI_MW_HammerBase_C",
+    "name": "MW Hammer Base",
     "category": "Weapons",
     "kind": "equipment"
   },

@@ -9,26 +9,20 @@ import (
 //go:embed pets_catalog.json
 var petsCatalogJSON []byte
 
+//go:embed pets_curated.json
+var petsCuratedJSON []byte
+
 //go:embed pet_traits.json
 var petTraitsJSON []byte
 
 // PetTraits, IncreasedInventoryTraitPath, DefaultNewPetTraitPaths — loaded from pet_traits.json in init.
 var (
-	PetTraits                     []PetTrait
-	IncreasedInventoryTraitPath   string
-	DefaultNewPetTraitPaths       []string
+	PetTraits                   []PetTrait
+	IncreasedInventoryTraitPath string
+	DefaultNewPetTraitPaths     []string
 )
 
-// petClassesCurated — hand-picked labels (emoji). Merge order: pets_catalog.json → this slice (later wins).
-var petClassesCurated = []PetClass{
-	{"/Game/Pawns/Animals/BlueTit_Domesticated/BP_BlueTit_Domesticated.BP_BlueTit_Domesticated_C", "\U0001f426 Blue Tit (Domesticated)"},
-	{"/Game/Pawns/Animals/Ants/AntWarrior_Black/BP_AntWarrior_Black.BP_AntWarrior_Black_C", "\U0001f41c Black Ant Warrior"},
-	{"/Game/Pawns/Animals/AlbinoScorpion/Companion_Wyrdweaver/BP_Albino_Scorpion_Comp_Wyrdweaver.BP_Albino_Scorpion_Comp_Wyrdweaver_C", "\U0001f982 Albino Scorpion (Wyrdweaver)"},
-	{"/Game/Pawns/Animals/Scorpion/BP_Scorpion.BP_Scorpion_C", "\U0001f982 Scorpion"},
-	{"/Game/Pawns/Animals/Hornet/BP_Hornet.BP_Hornet_C", "\U0001f41d Black Hornet"},
-}
-
-// PetClasses is merged from pets_catalog.json + curated. Used by GET /api/pets.
+// PetClasses is merged from pets_catalog.json → pets_curated.json (later wins on class). Used by GET /api/pets.
 var PetClasses []PetClass
 
 func init() {
@@ -48,11 +42,15 @@ func init() {
 	if err := json.Unmarshal(petsCatalogJSON, &fromCatalog); err != nil {
 		panic("catalog: pets_catalog.json: " + err.Error())
 	}
-	by := make(map[string]PetClass, len(fromCatalog)+len(petClassesCurated))
+	var fromCurated []PetClass
+	if err := json.Unmarshal(petsCuratedJSON, &fromCurated); err != nil {
+		panic("catalog: pets_curated.json: " + err.Error())
+	}
+	by := make(map[string]PetClass, len(fromCatalog)+len(fromCurated))
 	for _, p := range fromCatalog {
 		by[p.Class] = p
 	}
-	for _, p := range petClassesCurated {
+	for _, p := range fromCurated {
 		by[p.Class] = p
 	}
 	PetClasses = make([]PetClass, 0, len(by))

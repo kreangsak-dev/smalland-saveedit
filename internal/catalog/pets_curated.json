@@ -1,0 +1,22 @@
+[
+  {
+    "class": "/Game/Pawns/Animals/AlbinoScorpion/Companion_Wyrdweaver/BP_Albino_Scorpion_Comp_Wyrdweaver.BP_Albino_Scorpion_Comp_Wyrdweaver_C",
+    "name": "Albino Scorpion (Wyrdweaver)"
+  },
+  {
+    "class": "/Game/Pawns/Animals/Ants/AntWarrior_Black/BP_AntWarrior_Black.BP_AntWarrior_Black_C",
+    "name": "Black Ant Warrior"
+  },
+  {
+    "class": "/Game/Pawns/Animals/BlueTit_Domesticated/BP_BlueTit_Domesticated.BP_BlueTit_Domesticated_C",
+    "name": "Blue Tit (Domesticated)"
+  },
+  {
+    "class": "/Game/Pawns/Animals/Hornet/BP_Hornet.BP_Hornet_C",
+    "name": "Black Hornet"
+  },
+  {
+    "class": "/Game/Pawns/Animals/Scorpion/BP_Scorpion.BP_Scorpion_C",
+    "name": "Scorpion"
+  }
+]

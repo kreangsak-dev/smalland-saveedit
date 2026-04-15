@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { getLocalWikiThumbUrl, MISSING_THUMB_URL, stripPetLabelForWikiThumb } from '@/lib/wikiImages';
+import { getLocalWikiThumbUrl, MISSING_THUMB_URL, resolvePetWikiThumbLabel } from '@/lib/wikiImages';
 
 type Props = {
   displayName: string;
@@ -50,8 +50,8 @@ export default function WikiThumbImg({
 
 type PetProps = Omit<Props, 'displayName'> & { petLabel: string };
 
-/** Same as WikiThumbImg but strips leading emoji from pet row labels. */
+/** Same as WikiThumbImg but strips emoji and applies `PET_FILE_OVERRIDES` when resolving the file. */
 export function WikiPetThumbImg({ petLabel, ...rest }: PetProps) {
-  const displayName = stripPetLabelForWikiThumb(petLabel) || petLabel;
+  const displayName = resolvePetWikiThumbLabel(petLabel);
   return <WikiThumbImg displayName={displayName} {...rest} />;
 }

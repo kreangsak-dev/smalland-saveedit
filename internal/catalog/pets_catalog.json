@@ -4,32 +4,12 @@
     "name": "Albino Scorpion Comp Wyrdweaver"
   },
   {
-    "class": "/Game/Pawns/Animals/Ants/AntWorker_Black/BP_AntWorker_Black.BP_AntWorker_Black_C",
-    "name": "Black Ant Worker"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Ants/BullAnt/BP_BullAnt.BP_BullAnt_C",
-    "name": "Bull Ant"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Ants/DawnAnt/BP_DawnAnt.BP_DawnAnt_C",
-    "name": "Dawn Ant"
-  },
-  {
     "class": "/Game/Pawns/Animals/Bee/BP_Bee.BP_Bee_C",
     "name": "Bee"
   },
   {
-    "class": "/Game/Pawns/Animals/Bee/BP_BeeDrone.BP_BeeDrone_C",
-    "name": "Bee Drone"
-  },
-  {
-    "class": "/Game/Pawns/Animals/BlackHornet/BP_BlackHornet.BP_BlackHornet_C",
-    "name": "Black Hornet"
-  },
-  {
-    "class": "/Game/Pawns/Animals/BlueTit/BP_BlueTit.BP_BlueTit_C",
-    "name": "Blue Tit"
+    "class": "/Game/Pawns/Animals/Ants/AntWorker_Black/BP_AntWorker_Black.BP_AntWorker_Black_C",
+    "name": "Black Ant Worker"
   },
   {
     "class": "/Game/Pawns/Animals/BlueTit_Domesticated/BP_BlueTit_Domesticated.BP_BlueTit_Domesticated_C",
@@ -40,22 +20,6 @@
     "name": "Cockroach"
   },
   {
-    "class": "/Game/Pawns/Animals/Dragonfly/BP_Dragonfly.BP_Dragonfly_C",
-    "name": "Dragonfly"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Dragonfly/BP_Dragonfly_Nocturnal.BP_Dragonfly_Nocturnal_C",
-    "name": "Dragonfly (Nocturnal)"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Eagle/BP_Hawk.BP_Hawk_C",
-    "name": "Hawk"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Eagle/BP_Hawk_Eadric.BP_Hawk_Eadric_C",
-    "name": "Hawk (Eadric)"
-  },
-  {
     "class": "/Game/Pawns/Animals/Fly/BP_Fly.BP_Fly_C",
     "name": "Fly"
   },
@@ -64,24 +28,16 @@
     "name": "Gecko"
   },
   {
-    "class": "/Game/Pawns/Animals/Ghost/Ghost/BP_Ghost_Greater.BP_Ghost_Greater_C",
-    "name": "Ghost (Greater)"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Ghost/GhostWhisp/BP_GhostWhisp.BP_GhostWhisp_C",
-    "name": "Ghost (Lesser)"
-  },
-  {
     "class": "/Game/Pawns/Animals/Grasshopper/BP_Grasshopper.BP_Grasshopper_C",
     "name": "Grasshopper"
   },
   {
-    "class": "/Game/Pawns/Animals/Grasshopper/BP_Grasshopper_Nocturnal.BP_Grasshopper_Nocturnal_C",
-    "name": "Grasshopper (Nocturnal)"
-  },
-  {
     "class": "/Game/Pawns/Animals/GreenBeetle/BP_GreenBeetle.BP_GreenBeetle_C",
     "name": "Green Beetle"
+  },
+  {
+    "class": "/Game/Pawns/Animals/Eagle/BP_Hawk_Eadric.BP_Hawk_Eadric_C",
+    "name": "Hawk (Eadric)"
   },
   {
     "class": "/Game/Pawns/Animals/HornedBeetle/BP_HornedBeetle.BP_HornedBeetle_C",
@@ -94,14 +50,6 @@
   {
     "class": "/Game/Pawns/Animals/Ladybug/BP_Ladybug.BP_Ladybug_C",
     "name": "Ladybug"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Ladybug/BP_Ladybug_Nocturnal.BP_Ladybug_Nocturnal_C",
-    "name": "Ladybug (Nocturnal)"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Lizard/BP_Lizard.BP_Lizard_C",
-    "name": "Lizard"
   },
   {
     "class": "/Game/Pawns/Animals/Lubber/BP_Lubber.BP_Lubber_C",
@@ -120,32 +68,12 @@
     "name": "Mouse"
   },
   {
-    "class": "/Game/Pawns/Animals/Rat/BP_Rat.BP_Rat_C",
-    "name": "Rat"
-  },
-  {
-    "class": "/Game/Pawns/Animals/RhinoBeetle/BP_RhinoBeetle.BP_RhinoBeetle_C",
-    "name": "Rhino Beetle"
-  },
-  {
     "class": "/Game/Pawns/Animals/Sawyer/BP_Sawyer.BP_Sawyer_C",
     "name": "Sawyer"
   },
   {
     "class": "/Game/Pawns/Animals/Snake/BP_Snake.BP_Snake_C",
     "name": "Snake"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Spider/BP_Spider_Nocturnal.BP_Spider_Nocturnal_C",
-    "name": "Spider (Nocturnal)"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Spider/BlackWidow/BP_BlackWidow.BP_BlackWidow_C",
-    "name": "Black Widow"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Spiderling/BP_Spiderling.BP_Spiderling_C",
-    "name": "Spiderling"
   },
   {
     "class": "/Game/Pawns/Animals/StagBeetle/BP_StagBeetle.BP_StagBeetle_C",
@@ -156,23 +84,7 @@
     "name": "Stinkbug"
   },
   {
-    "class": "/Game/Pawns/Animals/Tarantula/BP_Tarantula.BP_Tarantula_C",
-    "name": "Tarantula"
-  },
-  {
-    "class": "/Game/Pawns/Animals/TarantulaHawkWasp/BP_TarantulaHawkWasp.BP_TarantulaHawkWasp_C",
-    "name": "Tarantula Hawk Wasp"
-  },
-  {
     "class": "/Game/Pawns/Animals/Wasp/BP_Wasp.BP_Wasp_C",
     "name": "Wasp"
-  },
-  {
-    "class": "/Game/Pawns/Animals/Waterbug/BP_Waterbug.BP_Waterbug_C",
-    "name": "Waterbug"
-  },
-  {
-    "class": "/Game/Pawns/Animals/WolfSpider/BP_WolfSpider.BP_WolfSpider_C",
-    "name": "Wolf Spider"
   }
 ]

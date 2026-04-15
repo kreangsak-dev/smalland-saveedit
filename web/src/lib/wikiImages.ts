@@ -18,6 +18,15 @@ const ITEM_FILE_OVERRIDES: Record<string, string> = {
   "Staff Wyrdweaver": "Wyrdweaver",
 };
 
+/** Pet display label (after emoji strip) → wiki thumb stem; passed through `pngFileName`. */
+const PET_FILE_OVERRIDES: Record<string, string> = {
+  "Blue Tit (Domesticated)": "Blue Tit",
+  "Blue Tit Domesticated": "Blue Tit",
+  "Albino Scorpion (Wyrdweaver)": "Wyrd-Crazed Albino Scorpion",
+  "Albino Scorpion Comp Wyrdweaver": "Wyrd-Crazed Albino Scorpion",
+  "Hawk (Eadric)": "Golden Eagle",
+};
+
 function pngFileName(displayName: string): string {
   const base = displayName.trim().replace(/ /g, "_");
   return `${base}.png`;
@@ -45,7 +54,12 @@ export function stripPetLabelForWikiThumb(petLabel: string): string {
     .trim();
 }
 
+/** Label shown in UI → basename used for `/wiki-thumbs/<name>.png` (includes item overrides). */
+export function resolvePetWikiThumbLabel(petLabel: string): string {
+  const stripped = stripPetLabelForWikiThumb(petLabel) || petLabel;
+  return PET_FILE_OVERRIDES[stripped] ?? stripped;
+}
+
 export function getWikiPetImageUrl(petLabel: string): string {
-  const stripped = stripPetLabelForWikiThumb(petLabel);
-  return getLocalWikiThumbUrl(stripped || petLabel);
+  return getLocalWikiThumbUrl(resolvePetWikiThumbLabel(petLabel));
 }

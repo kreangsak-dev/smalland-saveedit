@@ -52,9 +52,9 @@ Display names and categories for the editor come from **`GET /api/items`** and *
 
 - `internal/catalog/items_catalog.json` — full item list (`class`, `name`, `category`, `kind`) for the editor; edit this file to add or fix rows, then rebuild the server.
 - `internal/catalog/pets_catalog.json` — companion classes (`class` + `name`). Regenerate with `_generate_pet_classes_from_fnames.py`: merges new BP_ paths from FNames into this file without removing manual rows.
-- `internal/catalog/pets.go` — `petClassesCurated` (emoji labels); merged after `pets_catalog.json` and **wins** on duplicate `class`.
+- `internal/catalog/pets_curated.json` — hand-picked display names (e.g. emoji); merged after `pets_catalog.json` and **wins** on duplicate `class`.
 
-After changing embedded JSON (or `pets.go` curated slice), **rebuild and restart the Go server** so `init()` runs again. **Hard refresh** the browser so the React catalog provider refetches `/api/items`.
+After changing embedded JSON, **rebuild and restart the Go server** so `init()` runs again. **Hard refresh** the browser so the React catalog provider refetches `/api/items`.
 
 ## Production build (frontend only)
 

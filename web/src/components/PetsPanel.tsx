@@ -160,10 +160,12 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
   }), []);
 
   const pets = buildPetView(draft);
-  const [expanded, setExpanded] = useState<number | null>(pets.length > 0 ? 0 : null);
+  const [expanded, setExpanded] = useState<number | null>(null);
   const [newPetClass, setNewPetClass] = useState(() => apiPets.classes[0]?.class ?? '');
   const [showAddPet, setShowAddPet] = useState(false);
   const [newPetSpeciesSearch, setNewPetSpeciesSearch] = useState('');
+  const [speciesPickerOpen, setSpeciesPickerOpen] = useState(false);
+  const speciesPickerRef = useRef<HTMLDivElement>(null);
 
   const filteredSpecies = useMemo(() => {
     const q = newPetSpeciesSearch.trim().toLowerCase();
@@ -179,6 +181,32 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
       setNewPetClass(filteredSpecies[0].class);
     }
   }, [filteredSpecies, newPetClass]);
+
+  useEffect(() => {
+    if (!speciesPickerOpen) return;
+    const onDown = (e: MouseEvent) => {
+      const el = speciesPickerRef.current;
+      if (el && !el.contains(e.target as Node)) setSpeciesPickerOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSpeciesPickerOpen(false);
+    };
+    document.addEventListener('mousedown', onDown);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onDown);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [speciesPickerOpen]);
+
+  useEffect(() => {
+    if (!showAddPet) setSpeciesPickerOpen(false);
+  }, [showAddPet]);
+
+  const selectedNewSpecies = useMemo(
+    () => filteredSpecies.find(pc => pc.class === newPetClass),
+    [filteredSpecies, newPetClass],
+  );
 
   // Add item to pet states
   const [addingItemForPet, setAddingItemForPet] = useState<number | null>(null);
@@ -470,17 +498,59 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
               </div>
             </div>
             <div className="grid grid-cols-1 items-end gap-3 sm:grid-cols-[1fr_auto_auto]">
-              <div>
+              <div ref={speciesPickerRef} className="relative">
                 <label className="mb-1 block text-[10px] font-medium uppercase tracking-wider text-gray-400">Species</label>
-                <select className="w-full rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30" value={newPetClass} onChange={e => setNewPetClass(e.target.value)}>
-                  {filteredSpecies.length === 0 ? (
-                    <option value="">No matches</option>
+                <button
+                  type="button"
+                  disabled={filteredSpecies.length === 0}
+                  onClick={() => setSpeciesPickerOpen(o => !o)}
+                  className="flex w-full items-center gap-2 rounded-lg border border-gray-200 bg-white py-1.5 pl-2 pr-2 text-left text-sm transition-colors hover:bg-gray-50/80 focus:outline-none focus:ring-2 focus:ring-teal-500/30 disabled:cursor-not-allowed disabled:opacity-50"
+                  aria-haspopup="listbox"
+                  aria-expanded={speciesPickerOpen}
+                >
+                  {selectedNewSpecies ? (
+                    <>
+                      <WikiPetThumbImg
+                        petLabel={selectedNewSpecies.name}
+                        alt=""
+                        className="h-8 w-8 shrink-0 rounded-md border border-gray-100 bg-gray-50 object-cover"
+                      />
+                      <span className="min-w-0 flex-1 truncate font-medium text-gray-900">{selectedNewSpecies.name}</span>
+                    </>
                   ) : (
-                    filteredSpecies.map(pc => (
-                      <option key={pc.class} value={pc.class}>{pc.name}</option>
-                    ))
+                    <span className="flex-1 truncate pl-1 text-gray-400">No matches</span>
                   )}
-                </select>
+                  <ChevronDown size={14} className={`shrink-0 text-gray-400 transition-transform ${speciesPickerOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {speciesPickerOpen && filteredSpecies.length > 0 && (
+                  <ul
+                    className="absolute left-0 right-0 top-full z-20 mt-1 max-h-64 overflow-y-auto rounded-lg border border-gray-200 bg-white py-1 shadow-lg"
+                    role="listbox"
+                  >
+                    {filteredSpecies.map(pc => {
+                      const isSel = pc.class === newPetClass;
+                      return (
+                        <li key={pc.class} role="option" aria-selected={isSel}>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setNewPetClass(pc.class);
+                              setSpeciesPickerOpen(false);
+                            }}
+                            className={`flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm transition-colors ${isSel ? 'bg-teal-50 text-teal-900' : 'text-gray-800 hover:bg-gray-50'}`}
+                          >
+                            <WikiPetThumbImg
+                              petLabel={pc.name}
+                              alt=""
+                              className="h-8 w-8 shrink-0 rounded-md border border-gray-100 bg-gray-50 object-cover"
+                            />
+                            <span className="min-w-0 flex-1 truncate">{pc.name}</span>
+                          </button>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
               </div>
               <button type="button" onClick={() => { setShowAddPet(false); setNewPetSpeciesSearch(''); }} className="rounded-lg bg-white px-3.5 py-1.5 text-xs font-medium text-gray-600 ring-1 ring-gray-200 transition-colors hover:bg-gray-50">Cancel</button>
               <button type="button" disabled={filteredSpecies.length === 0 || !newPetClass} onClick={addPet} className="inline-flex items-center justify-center gap-1 rounded-lg bg-linear-to-r from-teal-500 to-emerald-600 px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm transition-all hover:shadow-md disabled:pointer-events-none disabled:opacity-40">
@@ -520,40 +590,56 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
 
           return (
             <div key={pet.birdId} className="bg-white rounded-xl border border-gray-100 overflow-hidden">
-              {/* Pet Header - Always visible */}
-              <button type="button" className="flex w-full items-center justify-between gap-3 px-3.5 py-2.5 text-left transition-colors hover:bg-gray-50/50" onClick={() => setExpanded(isOpen ? null : pet.preserIdx)}>
-                {!petPortraitFailed.has(pet.birdId) ? (
-                  <WikiPetThumbImg
-                    petLabel={petName}
-                    alt=""
-                    className="h-10 w-10 shrink-0 rounded-lg border border-gray-100 bg-gray-50 object-cover"
-                    onBothFailed={() => setPetPortraitFailed(prev => new Set(prev).add(pet.birdId))}
-                  />
-                ) : (
-                  <span className="shrink-0 text-3xl leading-none" aria-hidden>{petIcon}</span>
-                )}
-                <div className="min-w-0 flex-1">
-                  <div className="text-sm font-semibold text-gray-900">{petName}</div>
-                  <div className="flex flex-wrap items-center gap-2 text-xs text-gray-400">
-                    <span>Lv {pet.prog.Level}</span>
-                    <span className="w-1 h-1 rounded-full bg-gray-300" />
-                    <span>HP {Math.round(pet.stats.Health)}</span>
-                    <span className="w-1 h-1 rounded-full bg-gray-300" />
-                    <span>{pet.prog.Traits.length} traits</span>
-                    {pet.invItems.length > 0 && (
-                      <>
-                        <span className="w-1 h-1 rounded-full bg-gray-300" />
-                        <span>{pet.invItems.length} items</span>
-                      </>
-                    )}
+              {/* Pet header: collapsible summary + delete (always visible) */}
+              <div className="flex w-full items-stretch gap-1">
+                <button
+                  type="button"
+                  className="flex min-w-0 flex-1 items-center gap-3 px-3.5 py-2.5 text-left transition-colors hover:bg-gray-50/50"
+                  onClick={() => setExpanded(isOpen ? null : pet.preserIdx)}
+                  aria-expanded={isOpen}
+                >
+                  {!petPortraitFailed.has(pet.birdId) ? (
+                    <WikiPetThumbImg
+                      petLabel={petName}
+                      alt=""
+                      className="h-10 w-10 shrink-0 rounded-lg border border-gray-100 bg-gray-50 object-cover"
+                      onBothFailed={() => setPetPortraitFailed(prev => new Set(prev).add(pet.birdId))}
+                    />
+                  ) : (
+                    <span className="shrink-0 text-3xl leading-none" aria-hidden>{petIcon}</span>
+                  )}
+                  <div className="min-w-0 flex-1">
+                    <div className="text-sm font-semibold text-gray-900">{petName}</div>
+                    <div className="flex flex-wrap items-center gap-2 text-xs text-gray-400">
+                      <span>Lv {pet.prog.Level}</span>
+                      <span className="w-1 h-1 rounded-full bg-gray-300" />
+                      <span>HP {Math.round(pet.stats.Health)}</span>
+                      <span className="w-1 h-1 rounded-full bg-gray-300" />
+                      <span>{pet.prog.Traits.length} traits</span>
+                      {pet.invItems.length > 0 && (
+                        <>
+                          <span className="w-1 h-1 rounded-full bg-gray-300" />
+                          <span>{pet.invItems.length} items</span>
+                        </>
+                      )}
+                    </div>
                   </div>
-                </div>
-                {isOpen ? <ChevronUp size={15} className="shrink-0 text-gray-400" /> : <ChevronDown size={15} className="shrink-0 text-gray-400" />}
-              </button>
+                  {isOpen ? <ChevronUp size={15} className="shrink-0 text-gray-400" /> : <ChevronDown size={15} className="shrink-0 text-gray-400" />}
+                </button>
+                <button
+                  type="button"
+                  title="Remove companion"
+                  aria-label={`Remove companion ${petName}`}
+                  onClick={() => removePet(pet.birdId, pet.preserIdx)}
+                  className="my-1.5 mr-2 inline-flex shrink-0 items-center justify-center rounded-lg border border-red-100 bg-red-50/80 px-2.5 text-red-600 transition-colors hover:bg-red-100"
+                >
+                  <Trash2 size={14} strokeWidth={2} />
+                </button>
+              </div>
 
               {/* Expanded Content */}
               {isOpen && (
-                <div className="space-y-3 border-t border-gray-100 px-4 py-3">
+                <div className="space-y-3 border-t border-gray-100 px-4 pb-3 pt-3">
                   {/* Stats & Attributes - Two columns */}
                   <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
                     {/* Stats */}
@@ -986,13 +1072,6 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
                         })()}
                       </div>
                     )}
-                  </div>
-
-                  {/* Delete */}
-                  <div className="flex justify-end">
-                    <button onClick={() => removePet(pet.birdId, pet.preserIdx)} className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-medium text-red-600 bg-red-50 border border-red-200 rounded-lg hover:bg-red-100 transition-colors">
-                      <Trash2 size={12} /> Remove Companion
-                    </button>
                   </div>
                 </div>
               )}
