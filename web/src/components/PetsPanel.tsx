@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo, useEffect, useRef, forwardRef, useImperativeHandle } from 'react';
-import type { WrappedSave } from '@/lib/saveTypes';
+import type { ItemSerialize, WrappedSave } from '@/lib/saveTypes';
 import { cloneSave, mergePetsDraftInto, type SaveMergePanelRef } from '@/lib/mergeSaveDrafts';
 import { resolveItemSerialize } from '@/lib/resolveItemSerialize';
 import WikiThumbImg, { WikiPetThumbImg } from '@/components/WikiThumbImg';
@@ -396,6 +396,46 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
     setSelectedPetItem(null);
     setAddingItemForPet(null);
   }, [selectedPetItem, petItemQty, petItemMaxStack, petItemDur, petItemEpic, invTraitPath]);
+
+  const removePetInvItem = useCallback((petPreserIdx: number, itemId: number) => {
+    setDraft(prev => {
+      const newSave = cloneSave(prev);
+      const crId = String(newSave.data.Preserialize.CreatureRelations?.Id ?? '');
+      const stc = (newSave.data.Serialize[crId] as {
+        StoredTamedCreatures?: {
+          PreSerializeCreatures: { CharInv?: { Id: number; InventoryItems: { Class: string; Id: number }[] } }[];
+          [k: string]: unknown;
+        };
+      } | undefined)?.StoredTamedCreatures;
+      const petPreser = stc?.PreSerializeCreatures[petPreserIdx];
+      const inv = petPreser?.CharInv?.InventoryItems;
+      if (!stc || !petPreser?.CharInv || !inv?.some(p => p.Id === itemId)) return newSave;
+
+      petPreser.CharInv.InventoryItems = inv.filter(p => p.Id !== itemId);
+      const charInvKey = String(petPreser.CharInv.Id);
+      const petInvSer = stc[charInvKey] as { InventoryItems?: { Id: number; Idx: number }[] } | undefined;
+      if (petInvSer?.InventoryItems) {
+        petInvSer.InventoryItems = petInvSer.InventoryItems.filter(s => s.Id !== itemId);
+      }
+      const key = String(itemId);
+      delete (stc as Record<string, unknown>)[key];
+      delete newSave.data.Serialize[key];
+      return newSave;
+    });
+  }, []);
+
+  const patchPetItemSerialize = useCallback((itemId: number, updates: Partial<ItemSerialize>) => {
+    setDraft(prev => {
+      const newSave = cloneSave(prev);
+      const key = String(itemId);
+      const merged = { ...resolveItemSerialize(newSave, itemId), ...updates };
+      const crId = String(newSave.data.Preserialize.CreatureRelations?.Id ?? '');
+      const stc = (newSave.data.Serialize[crId] as { StoredTamedCreatures: Record<string, unknown> } | undefined)?.StoredTamedCreatures;
+      if (stc) (stc as Record<string, unknown>)[key] = merged;
+      newSave.data.Serialize[key] = merged;
+      return newSave;
+    });
+  }, []);
 
   const handleReset = () => setDraft(cloneSave(save));
   const handleApply = () => {
@@ -905,6 +945,9 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
                           const qtyRaw = ser.Quantity;
                           const hasQty = qtyRaw != null && Number.isFinite(Number(qtyRaw));
                           const qty = hasQty ? Math.max(1, Math.floor(Number(qtyRaw))) : null;
+                          const itemDefRow = getItemDefinition(item.Class);
+                          const isStack = itemDefRow?.kind === 'stack';
+                          const stackQtyInput = isStack ? Math.max(1, Math.floor(Number(ser.Quantity) || 1)) : null;
                           const displayName = getItemName(item.Class);
                           const cat = getItemCategory(item.Class);
                           const imgKey = `inv:${item.Id}`;
@@ -926,7 +969,7 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
                               <div className="min-w-0 flex-1">
                                 <div className="truncate text-[11px] font-medium text-gray-800 leading-tight">{displayName}</div>
                                 <div className="mt-0.5 flex flex-wrap items-center gap-1">
-                                  {qty != null && (
+                                  {!isStack && qty != null && (
                                     <span className="text-[10px] font-semibold tabular-nums text-green-800 bg-green-50 px-1.5 py-0.5 rounded ring-1 ring-green-100/80">×{qty}</span>
                                   )}
                                   {ser.QualityLevel === 4 && <span className="text-[9px] font-medium text-amber-700 bg-amber-50 px-1 py-0.5 rounded">Epic</span>}
@@ -935,6 +978,29 @@ const PetsPanel = forwardRef<SaveMergePanelRef, Props>(function PetsPanel({ save
                                   )}
                                 </div>
                                 <div className="truncate text-[9px] text-gray-400 mt-0.5">{cat}</div>
+                              </div>
+                              <div className="flex shrink-0 flex-col items-end gap-1">
+                                {isStack && stackQtyInput != null && (
+                                  <div className="flex items-center gap-1">
+                                    <span className="text-[9px] text-gray-400">Qty</span>
+                                    <input
+                                      type="number"
+                                      min={1}
+                                      className="w-14 px-1.5 py-0.5 text-[11px] tabular-nums text-right bg-gray-50 border border-gray-200 rounded focus:outline-none focus:ring-1 focus:ring-teal-500/30"
+                                      value={stackQtyInput}
+                                      onChange={e => patchPetItemSerialize(item.Id, { Quantity: Math.max(1, Number(e.target.value) || 1) })}
+                                    />
+                                  </div>
+                                )}
+                                <button
+                                  type="button"
+                                  title="Remove from pet inventory"
+                                  aria-label={`Remove ${displayName} from pet inventory`}
+                                  onClick={() => removePetInvItem(pet.preserIdx, item.Id)}
+                                  className="inline-flex items-center justify-center rounded-md p-1 text-gray-400 transition-colors hover:bg-red-50 hover:text-red-600"
+                                >
+                                  <Trash2 size={14} strokeWidth={2} />
+                                </button>
                               </div>
                             </div>
                           );
