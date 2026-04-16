@@ -31,6 +31,7 @@
     "label": "Special weapons",
     "classes": [
       "/Game/Items/Weapons/TwoHandedSwords/PyriteGreatsword/BPI_PyriteGreatsword.BPI_PyriteGreatsword_C",
+      "/Game/Items/Weapons/TwoHandedSwords/ChampionGreatsword/BPI_ChampionGreatsword.BPI_ChampionGreatsword_C",
       "/Game/Items/Weapons/Spears/StingerLance/BPI_StingerLance.BPI_StingerLance_C",
       "/Game/Items/Staffs/Wyrdweaver/BPI_Staff_Wyrdweaver.BPI_Staff_Wyrdweaver_C",
       "/Game/Items/RangedWeapons/Firearms/HandCannon/BPI_HandCannon.BPI_HandCannon_C",
