@@ -882,6 +882,12 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/Uncooked/CupLichen/BPI_CupLichen_pick-up.BPI_CupLichen_pick-up_C",
+    "name": "Cup Lichen",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Baits/Old_Bait/BPI_DamselflyBait.BPI_DamselflyBait_C",
     "name": "Damselfly Bait",
     "category": "Consumables",

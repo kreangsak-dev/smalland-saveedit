@@ -36,10 +36,6 @@
     "name": "Green Beetle"
   },
   {
-    "class": "/Game/Pawns/Animals/Eagle/BP_Hawk_Eadric.BP_Hawk_Eadric_C",
-    "name": "Hawk (Eadric)"
-  },
-  {
     "class": "/Game/Pawns/Animals/HornedBeetle/BP_HornedBeetle.BP_HornedBeetle_C",
     "name": "Horned Beetle"
   },
