@@ -12,6 +12,12 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/ArmorSets/Common/Attachments/BPI_AttachedWings.BPI_AttachedWings_C",
+    "name": "Attached Wings",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
     "class": "/Game/Items/ArmorSets/BackersSet/Arms/BPI_BackerSet_Arms.BPI_BackerSet_Arms_C",
     "name": "Backer Set Arms",
     "category": "Armor",
@@ -110,6 +116,30 @@
   {
     "class": "/Game/Items/ArmorSets/BlackAntSet1/Torso/BPI_BlackAntSet1_Torso.BPI_BlackAntSet1_Torso_C",
     "name": "Black Ant Set1 Torso",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ChitinSet/Arms/BPI_ChitinArmor_Arms.BPI_ChitinArmor_Arms_C",
+    "name": "Chitin Armor Arms",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ChitinSet/Helmet/BPI_ChitinArmor_Helmet.BPI_ChitinArmor_Helmet_C",
+    "name": "Chitin Armor Helmet",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ChitinSet/Legs/BPI_ChitinArmor_Legs.BPI_ChitinArmor_Legs_C",
+    "name": "Chitin Armor Legs",
+    "category": "Armor",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/ArmorSets/ChitinSet/Torso/BPI_ChitinArmor_Torso.BPI_ChitinArmor_Torso_C",
+    "name": "Chitin Armor Torso",
     "category": "Armor",
     "kind": "equipment"
   },
@@ -726,8 +756,44 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/Campfire/AntSkewer/BPI_Con_AntSkewer.BPI_Con_AntSkewer_C",
+    "name": "Ant Skewer",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/BPI_Bait_Basic.BPI_Bait_Basic_C",
+    "name": "Bait Basic",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/BPI_Bait_Delicious.BPI_Bait_Delicious_C",
+    "name": "Bait Delicious",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/BPI_Bait_Superb.BPI_Bait_Superb_C",
+    "name": "Bait Superb",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/BPI_Bait_Tasty.BPI_Bait_Tasty_C",
+    "name": "Bait Tasty",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/BeetleHeart/BPI_BeetleHeart.BPI_BeetleHeart_C",
     "name": "Beetle Heart",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_BlackSpiderBait.BPI_BlackSpiderBait_C",
+    "name": "Black Spider Bait",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -738,8 +804,86 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/StoneOven/BlackberryCake/BPI_Con_BlackberryCake.BPI_Con_BlackberryCake_C",
+    "name": "Blackberry Cake",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/BlackberryJam/BPI_Con_BlackberryJam.BPI_Con_BlackberryJam_C",
+    "name": "Blackberry Jam",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/BloodPotion/BPI_Con_BloodPotion.BPI_Con_BloodPotion_C",
+    "name": "Blood Potion",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Campfire/BloodSausage/BPI_Con_BloodSausage.BPI_Con_BloodSausage_C",
+    "name": "Blood Sausage",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/BloodSoup/BPI_Con_BloodSoup.BPI_Con_BloodSoup_C",
+    "name": "Blood Soup",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/BoiledPoisonedMushroom/BPI_Con_BoiledPoisonedMushroom.BPI_Con_BoiledPoisonedMushroom_C",
+    "name": "Boiled Poisoned Mushroom",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/BugLymph/BPI_BugLymph.BPI_BugLymph_C",
     "name": "Bug Lymph",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Halloween/Candy_Corn/BPI_Con_CandyCorn.BPI_Con_CandyCorn_C",
+    "name": "Candy Corn",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/CaramelizedAntHead/BPI_Con_CaramelizedAntHead.BPI_Con_CaramelizedAntHead_C",
+    "name": "Caramelized Ant Head",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/CaramelizedBeeHead/BPI_Con_CaramelizedBeeHead.BPI_Con_CaramelizedBeeHead_C",
+    "name": "Caramelized Bee Head",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/Caramelized_MantisHead/BPI_Con_CaramelizedMantisHead.BPI_Con_CaramelizedMantisHead_C",
+    "name": "Caramelized Mantis Head",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/CaramelizedSpiderHead/BPI_Con_CaramelizedSpiderHead.BPI_Con_CaramelizedSpiderHead_C",
+    "name": "Caramelized Spider Head",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Workbench/ClayPatch/BPI_Con_ClayPatch.BPI_Con_ClayPatch_C",
+    "name": "Clay Patch",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_DamselflyBait.BPI_DamselflyBait_C",
+    "name": "Damselfly Bait",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -756,8 +900,50 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/Cauldron/FayChowder/BPI_Con_FayChowder.BPI_Con_FayChowder_C",
+    "name": "Fay Chowder",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/FireflyBalm/BPI_Con_FireflyBalm.BPI_Con_FireflyBalm_C",
+    "name": "Firefly Balm",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/ForestDelight/BPI_Con_ForestDelight.BPI_Con_ForestDelight_C",
+    "name": "Forest Delight",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/ForestStrawberry/BPI_ForestStrawberry.BPI_ForestStrawberry_C",
     "name": "Forest Strawberry",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/GarlicPudding/BPI_Con_GarlicPudding.BPI_Con_GarlicPudding_C",
+    "name": "Garlic Pudding",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_GeckoBait.BPI_GeckoBait_C",
+    "name": "Gecko Bait",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_GrasshopperBait.BPI_GrasshopperBait_C",
+    "name": "Grasshopper Bait",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Campfire/GrilledGrasshopperLeg/BPI_Con_GrilledGrasshopperLeg.BPI_Con_GrilledGrasshopperLeg_C",
+    "name": "Grilled Grasshopper Leg",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -768,8 +954,26 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/ApotecharyTable/HealthElixirGreater/BPI_Con_HealthElixirGreater.BPI_Con_HealthElixirGreater_C",
+    "name": "Health Elixir Greater",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/HealthElixirLesser/BPI_Con_HealthElixirLesser.BPI_Con_HealthElixirLesser_C",
+    "name": "Health Elixir Lesser",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/StoneOven/HerptileRoulade/BPI_Con_HerptileRoulade.BPI_Con_HerptileRoulade_C",
     "name": "Herptile Roulade",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/HoneyBiscuits/BPI_Con_HoneyBiscuits.BPI_Con_HoneyBiscuits_C",
+    "name": "Honey Biscuits",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -780,14 +984,56 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_HornetBait.BPI_HornetBait_C",
+    "name": "Hornet Bait",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/InsectEgg/BPI_InsectEgg.BPI_InsectEgg_C",
     "name": "Insect Egg",
     "category": "Consumables",
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/ApotecharyTable/JesterBrew/BPI_Con_JesterBrew.BPI_Con_JesterBrew_C",
+    "name": "Jester Brew",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_LadybugTravelingKit.BPI_LadybugTravelingKit_C",
+    "name": "Ladybug Traveling Kit",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/Lichen/BPI_Lichen.BPI_Lichen_C",
     "name": "Lichen",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/LichenElixir/BPI_Con_LichenElixir.BPI_Con_LichenElixir_C",
+    "name": "Lichen Elixir",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/LichenElixirGreater/BPI_Con_LichenElixirGreater.BPI_Con_LichenElixirGreater_C",
+    "name": "Lichen Elixir Greater",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/LichenElixirLesser/BPI_Con_LichenElixirLesser.BPI_Con_LichenElixirLesser_C",
+    "name": "Lichen Elixir Lesser",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Campfire/LubberRoast/BPI_Con_LubberRoast.BPI_Con_LubberRoast_C",
+    "name": "Lubber Roast",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -804,8 +1050,44 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/Campfire/MushroomSteak/BPI_Con_MushroomSteak.BPI_Con_MushroomSteak_C",
+    "name": "Mushroom Steak",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/OffalBroth/BPI_Con_OffalBroth.BPI_Con_OffalBroth_C",
+    "name": "Offal Broth",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Campfire/PixieOmelette/BPI_Con_PixieOmelette.BPI_Con_PixieOmelette_C",
+    "name": "Pixie Omelette",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/ApotecharyTable/PoisonAntidote/BPI_Con_PoisonAntidote.BPI_Con_PoisonAntidote_C",
     "name": "Poison Antidote",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/PoisonResistanceBrew/BPI_Con_PoisonResistanceBrew.BPI_Con_PoisonResistanceBrew_C",
+    "name": "Poison Resistance Brew",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/PoisonResistanceBrewLesser/BPI_Con_PoisonResistanceBrewLesser.BPI_Con_PoisonResistanceBrewLesser_C",
+    "name": "Poison Resistance Brew Lesser",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Campfire/RedJerky/BPI_Con_RedJerky.BPI_Con_RedJerky_C",
+    "name": "Red Jerky",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -816,8 +1098,32 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/Cauldron/ReishiSoup/BPI_Con_ReishiSoup.BPI_Con_ReishiSoup_C",
+    "name": "Reishi Soup",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Workbench/RepairKit/BPI_Con_RepairKit.BPI_Con_RepairKit_C",
+    "name": "Repair Kit",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/RoachMeat/BPI_RoachMeat.BPI_RoachMeat_C",
     "name": "Roach Meat",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/RodentBrew/BPI_Con_RodentBrew.BPI_Con_RodentBrew_C",
+    "name": "Rodent Brew",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/Rodent_Dumpling/BPI_Con_RodentDumpling.BPI_Con_RodentDumpling_C",
+    "name": "Rodent Dumpling",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -830,6 +1136,30 @@
   {
     "class": "/Game/Items/Consumables/Schematic/ArmorSet_Scorpiolaminate/BPI_Schematic_ArmorSet_Scorpiolaminate.BPI_Schematic_ArmorSet_Scorpiolaminate_C",
     "name": "Schematic Armor Set Scorpiolaminate",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/Cosmetic_Flowers/BPI_Schematic_Cosmetic_Flowers.BPI_Schematic_Cosmetic_Flowers_C",
+    "name": "Schematic Cosmetic Flowers",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/Cosmetic_Trophies/BPI_Schematic_Cosmetic_Lights.BPI_Schematic_Cosmetic_Lights_C",
+    "name": "Schematic Cosmetic Lights",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/Cosmetic_Lights/BPI_Schematic_Cosmetic_Trophies.BPI_Schematic_Cosmetic_Trophies_C",
+    "name": "Schematic Cosmetic Trophies",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Schematic/Cosmetic_Vines/BPI_Schematic_Cosmetic_Vines.BPI_Schematic_Cosmetic_Vines_C",
+    "name": "Schematic Cosmetic Vines",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -864,8 +1194,38 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Baits/Old_Bait/BPI_ScorpionBait.BPI_ScorpionBait_C",
+    "name": "Scorpion Bait",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/SeedPie/BPI_Con_SeedPie.BPI_Con_SeedPie_C",
+    "name": "Seed Pie",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Workbench/SimpleBandage/BPI_Con_SimpleBandage.BPI_Con_SimpleBandage_C",
+    "name": "Simple Bandage",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/SmallfolkCasserole/BPI_Con_SmallfolkCasserole.BPI_Con_SmallfolkCasserole_C",
+    "name": "Smallfolk Casserole",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/SpiderEye/BPI_SpiderEye.BPI_SpiderEye_C",
     "name": "Spider Eye",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/SpiderStew/BPI_Con_SpiderStew.BPI_Con_SpiderStew_C",
+    "name": "Spider Stew",
     "category": "Consumables",
     "kind": "stack"
   },
@@ -876,10 +1236,58 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Consumables/ApotecharyTable/StaminaTonicGreater/BPI_Con_StaminaTonicGreater.BPI_Con_StaminaTonicGreater_C",
+    "name": "Stamina Tonic Greater",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/ApotecharyTable/StaminaTonicLesser/BPI_Con_StaminaTonicLesser.BPI_Con_StaminaTonicLesser_C",
+    "name": "Stamina Tonic Lesser",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/StoneOven/StrawberryCake/BPI_Con_StrawberryCake.BPI_Con_StrawberryCake_C",
+    "name": "Strawberry Cake",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/StrawberryJam/BPI_Con_StrawberryJam.BPI_Con_StrawberryJam_C",
+    "name": "Strawberry Jam",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Consumables/Uncooked/ToadFlesh/BPI_ToadFlesh.BPI_ToadFlesh_C",
     "name": "Toad Flesh",
     "category": "Consumables",
     "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/Cauldron/WoodlandBroth/BPI_Con_WoodlandBroth.BPI_Con_WoodlandBroth_C",
+    "name": "Woodland Broth",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/WyrdweaverTable/WyrdElixir_Greater/BPI_Con_WyrdElixir_Greater.BPI_Con_WyrdElixir_Greater_C",
+    "name": "Wyrd Elixir Greater",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Consumables/WyrdweaverTable/WyrdElixir_Lesser/BPI_Con_WyrdElixir_Lesser.BPI_Con_WyrdElixir_Lesser_C",
+    "name": "Wyrd Elixir Lesser",
+    "category": "Consumables",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Cobwebs/BPI_CobWebWall_X_01.BPI_CobWebWall_X_01_C",
+    "name": "Cob Web Wall X 01",
+    "category": "Deployable",
+    "kind": "equipment"
   },
   {
     "class": "/Game/Items/Deployable/BPI_Deployable_Base.BPI_Deployable_Base_C",
@@ -896,6 +1304,12 @@
   {
     "class": "/Game/Items/Deployable/Defensive/Bones/BPI_FloorSpikes_BoneBlades.BPI_FloorSpikes_BoneBlades_C",
     "name": "Floor Spikes Bone Blades",
+    "category": "Deployable",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Deployable/Defensive/Cobwebs/BPI_FloorSpikes_Cobwebs.BPI_FloorSpikes_Cobwebs_C",
+    "name": "Floor Spikes Cobwebs",
     "category": "Deployable",
     "kind": "equipment"
   },
@@ -1028,6 +1442,18 @@
   {
     "class": "/Game/Items/IncubatedEggs/BullAnt/BPI_IncubatedEgg_BullAnt.BPI_IncubatedEgg_BullAnt_C",
     "name": "Incubated Egg Bull Ant",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/Cockroach/BPI_IncubatedEgg_Cockroach.BPI_IncubatedEgg_Cockroach_C",
+    "name": "Incubated Egg Cockroach",
+    "category": "Eggs",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/IncubatedEggs/ColonySpider/BPI_IncubatedEgg_ColonySpider.BPI_IncubatedEgg_ColonySpider_C",
+    "name": "Incubated Egg Colony Spider",
     "category": "Eggs",
     "kind": "stack"
   },
@@ -1278,6 +1704,42 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Yuletide/Charms/BPI_Charm_Bonniedel.BPI_Charm_Bonniedel_C",
+    "name": "Charm Bonniedel",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Yuletide/Charms/BPI_Charm_Drustana.BPI_Charm_Drustana_C",
+    "name": "Charm Drustana",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Yuletide/Charms/BPI_Charm_Elder.BPI_Charm_Elder_C",
+    "name": "Charm Elder",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Yuletide/Charms/BPI_Charm_Herne.BPI_Charm_Herne_C",
+    "name": "Charm Herne",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Yuletide/Charms/BPI_Charm_Lisandra.BPI_Charm_Lisandra_C",
+    "name": "Charm Lisandra",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Yuletide/Charms/BPI_Charm_Myrmek.BPI_Charm_Myrmek_C",
+    "name": "Charm Myrmek",
+    "category": "Other",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Orb/BPI_WyrdOrb.BPI_WyrdOrb_C",
     "name": "Wyrd Orb",
     "category": "Other",
@@ -1292,6 +1754,12 @@
   {
     "class": "/Game/Items/RangedWeapons/Blowgun/BPI_Blowgun.BPI_Blowgun_C",
     "name": "Blowgun",
+    "category": "Ranged",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/RangedWeapons/Bow/ChitinBow/BPI_ChitinBow.BPI_ChitinBow_C",
+    "name": "Chitin Bow",
     "category": "Ranged",
     "kind": "equipment"
   },
@@ -1500,6 +1968,12 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Resources/BPI_Charcoal.BPI_Charcoal_C",
+    "name": "Charcoal",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Resources/BPI_Chitin.BPI_Chitin_C",
     "name": "Chitin",
     "category": "Resources",
@@ -1508,6 +1982,96 @@
   {
     "class": "/Game/Items/Resources/BPI_Clay.BPI_Clay_C",
     "name": "Clay",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ClayMortar.BPI_ClayMortar_C",
+    "name": "Clay Mortar",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_ColonySpiderAbdomen.BPI_ColonySpiderAbdomen_C",
+    "name": "Colony Spider Abdomen",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Bishop_Black.BPI_CP_Bishop_Black_C",
+    "name": "CP Bishop Black",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Bishop_White.BPI_CP_Bishop_White_C",
+    "name": "CP Bishop White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_King_Black.BPI_CP_King_Black_C",
+    "name": "CP King Black",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_King_White.BPI_CP_King_White_C",
+    "name": "CP King White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Knight_Black.BPI_CP_Knight_Black_C",
+    "name": "CP Knight Black",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Knight_White.BPI_CP_Knight_White_C",
+    "name": "CP Knight White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Pawn_Black.BPI_CP_Pawn_Black_C",
+    "name": "CP Pawn Black",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Pawn_White.BPI_CP_Pawn_White_C",
+    "name": "CP Pawn White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Queen_Black.BPI_CP_Queen_Black_C",
+    "name": "CP Queen Black",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Queen_White.BPI_CP_Queen_White_C",
+    "name": "CP Queen White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Rook_Black.BPI_CP_Rook_Black_C",
+    "name": "CP Rook Black",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/ChessPieces/BPI_CP_Rook_White.BPI_CP_Rook_White_C",
+    "name": "CP Rook White",
+    "category": "Resources",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Resources/BPI_CrystalByproduct.BPI_CrystalByproduct_C",
+    "name": "Crystal Byproduct",
     "category": "Resources",
     "kind": "stack"
   },
@@ -2238,6 +2802,36 @@
     "kind": "equipment"
   },
   {
+    "class": "/Game/Items/Tools/CreatureWhistle/BPI_CreatureWhistle.BPI_CreatureWhistle_C",
+    "name": "Creature Whistle",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/CrystalTorches/Autumn/BPI_CrystalTorch_Autumn.BPI_CrystalTorch_Autumn_C",
+    "name": "Crystal Torch Autumn",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/CrystalTorches/Spring/BPI_CrystalTorch_Spring.BPI_CrystalTorch_Spring_C",
+    "name": "Crystal Torch Spring",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/CrystalTorches/Summer/BPI_CrystalTorch_Summer.BPI_CrystalTorch_Summer_C",
+    "name": "Crystal Torch Summer",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Tools/CrystalTorches/Winter/BPI_CrystalTorch_Winter.BPI_CrystalTorch_Winter_C",
+    "name": "Crystal Torch Winter",
+    "category": "Tools",
+    "kind": "equipment"
+  },
+  {
     "class": "/Game/Items/Tools/FireflyTorch/BPI_FireflyTorch.BPI_FireflyTorch_C",
     "name": "Firefly Torch",
     "category": "Tools",
@@ -2346,8 +2940,38 @@
     "kind": "stack"
   },
   {
+    "class": "/Game/Items/Other/BPI_CloverLeafJewel_Blue.BPI_CloverLeafJewel_Blue_C",
+    "name": "Clover Leaf Jewel Blue",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_CloverLeafJewel_Green.BPI_CloverLeafJewel_Green_C",
+    "name": "Clover Leaf Jewel Green",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_CloverLeafJewel_Red.BPI_CloverLeafJewel_Red_C",
+    "name": "Clover Leaf Jewel Red",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_CloverLeafJewel_Yellow.BPI_CloverLeafJewel_Yellow_C",
+    "name": "Clover Leaf Jewel Yellow",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
     "class": "/Game/Items/Other/BPI_Coin.BPI_Coin_C",
     "name": "Coin",
+    "category": "Utility",
+    "kind": "stack"
+  },
+  {
+    "class": "/Game/Items/Other/BPI_ContributionPoint.BPI_ContributionPoint_C",
+    "name": "Contribution Point",
     "category": "Utility",
     "kind": "stack"
   },
@@ -2378,6 +3002,24 @@
   {
     "class": "/Game/Items/Weapons/Club/Bone_Club/BPI_BoneMace.BPI_BoneMace_C",
     "name": "Bone Mace",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/TwoHandedSwords/ChampionGreatsword/BPI_ChampionGreatsword.BPI_ChampionGreatsword_C",
+    "name": "Champion Greatsword",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Axes/ChitinAxe/BPI_ChitinAxe.BPI_ChitinAxe_C",
+    "name": "Chitin Axe",
+    "category": "Weapons",
+    "kind": "equipment"
+  },
+  {
+    "class": "/Game/Items/Weapons/Spears/ChitinSpear/BPI_ChitinSpear.BPI_ChitinSpear_C",
+    "name": "Chitin Spear",
     "category": "Weapons",
     "kind": "equipment"
   },
